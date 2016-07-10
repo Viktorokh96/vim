@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/viktor96/Projects/ISCA-API/testing'
+let g:netrw_dirhist_2='/home/viktor96/.vim/plugin/ftplugin'
+let g:netrw_dirhist_3='/home/viktor96/Projects/smallsh'
+let g:netrw_dirhist_4='/home/viktor96/Projects/ISCA-API/testing/iosys'

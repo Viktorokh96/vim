@@ -1,0 +1,745 @@
+# –≠—Ç–æ—Ç —Ñ–∞–π–ª viminfo –∞–≤—Ç–æ–º–∞—Ç–∏—á–µ—Å–∫–∏ —Å–æ–∑–¥–∞–Ω Vim 7.4.
+# –ï–≥–æ –º–æ–∂–Ω–æ (–æ—Å—Ç–æ—Ä–æ–∂–Ω–æ!) —Ä–µ–¥–∞–∫—Ç–∏—Ä–æ–≤–∞—Ç—å.
+
+# –ó–Ω–∞—á–µ–Ω–∏–µ –æ–ø—Ü–∏–∏ 'encoding' –≤ –º–æ–º–µ–Ω—Ç –∑–∞–ø–∏—Å–∏ —Ñ–∞–π–ª–∞
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# –ü–æ—Å–ª–µ–¥–Ω–∏–π –®–∞–±–ª–æ–Ω –ø–æ–∏—Å–∫–∞:
+~MSle0~/MakeBrigadeWin
+
+# –ü–æ—Å–ª–µ–¥–Ω–∏–π –ó–∞–º–µ–Ω–∞ –®–∞–±–ª–æ–Ω –ø–æ–∏—Å–∫–∞:
+~MSle0&—É–≤–æ–¥—é
+
+# –ü–æ—Å–ª–µ–¥–Ω—è—è —Å—Ç—Ä–æ–∫–∞ –¥–ª—è –∑–∞–º–µ–Ω—ã:
+$
+
+# –ö–æ–º–∞–Ω–¥–Ω–∞—è —Å—Ç—Ä–æ–∫–∞, –∏—Å—Ç–æ—Ä–∏—è (–Ω–∞—á–∏–Ω–∞—è –æ—Ç —Å–≤–µ–∂–µ–≥–æ –∫ —Å—Ç–∞—Ä–æ–º—É):
+:q
+:wq
+:w
+:split ~/.vimrc
+:colorscheme desert
+:set num
+:trewind
+:set
+:help runtimepath
+:qw
+:x
+:filetype
+:u
+:filetype indent on
+:filetype plugin on
+:fyletype
+:set nonumber
+:set number
+:make
+:close
+:!./framework
+:vsplit ~/Projects/ISCA-API/testing/framework.cpp
+:!sensors
+:q!
+:ftdetect
+:ftdetct
+:setfiletype
+:only
+:Explore ~/.vim/plugin/ftplugin/
+:Explore
+:Texplore
+:vnew
+:help usr_06.txt
+:!git push origin develop:develop
+:!git commit -am "–∑–∞–±—ã–ª —Ñ–∞–π–ª—ã"
+:!git status
+:!git add iosystem.cpp iosystem.h
+:!git add iosys*
+:git add io*
+:!git commit -a
+:git commit a
+:!git commit -am "–æ–±–¥—É–º—ã–≤–∞–Ω–∏–µ –∫–∞—Ä–∫–∞—Å–∞"
+:!git
+:map \lc ^i/*<Esc>$a*/<Esc>
+:vmap \c 
+:set nohlsearch
+:set hlsearch
+:set background=dark
+:set t_Co=256
+:W
+
+# –°—Ç—Ä–æ–∫–∞ –ø–æ–∏—Å–∫–∞, –∏—Å—Ç–æ—Ä–∏—è (–Ω–∞—á–∏–Ω–∞—è –æ—Ç —Å–≤–µ–∂–µ–≥–æ –∫ —Å—Ç–∞—Ä–æ–º—É):
+??MakeBrigadeWin
+??\
+?//
+? \<ISCA_RegisterWindow\>
+?/also
+? \<line)\.\>
+? \<To\>
+?/\<the
+?/the\>
+?/the
+?/ 6 multiple windows
+?/ 8 terminal
+?/15 tabs and indenting
+?/24 language specific
+?/tag
+??B
+?/—Ä–µ–≥–∏—Å—Ç—Ä–∞
+?/–∏–≥–Ω–æ—Ä–∏—Ä–æ–≤–∞—Ç—å
+? —É–≤–æ–¥—é
+??—É–≤–æ–¥—é
+?/–æ—à–∏–±–∫–∞
+?/–æ—à—à—à–∏–±–∫–∞
+??/
+? \.
+
+# –í—ã—Ä–∞–∂–µ–Ω–∏–µ, –∏—Å—Ç–æ—Ä–∏—è (–Ω–∞—á–∏–Ω–∞—è –æ—Ç —Å–≤–µ–∂–µ–≥–æ –∫ —Å—Ç–∞—Ä–æ–º—É):
+
+# –°—Ç—Ä–æ–∫–∞ –≤–≤–æ–¥–∞, –∏—Å—Ç–æ—Ä–∏—è (–Ω–∞—á–∏–Ω–∞—è –æ—Ç —Å–≤–µ–∂–µ–≥–æ –∫ —Å—Ç–∞—Ä–æ–º—É):
+@[\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+
+# –°—Ç—Ä–æ–∫–∞ –≤–≤–æ–¥–∞, –∏—Å—Ç–æ—Ä–∏—è (–Ω–∞—á–∏–Ω–∞—è –æ—Ç —Å–≤–µ–∂–µ–≥–æ –∫ —Å—Ç–∞—Ä–æ–º—É):
+
+# –†–µ–≥–∏—Å—Ç—Ä—ã:
+"0	LINE	0
+	inoremap <tab> <c-r>=InsertTabWrapper("forward")<cr>
+""1	LINE	0
+	function win32k2
+"2	LINE	0
+	
+"3	LINE	0
+	set langmap=—ë–π—Ü—É–∫–µ–Ω–≥—à—â–∑—Ö—ä—Ñ—ã–≤–∞–ø—Ä–æ–ª–¥–∂—ç—è—á—Å–º–∏—Ç—å;`qwertyuiop[]asdfghjkl'zxcvbnm/
+	
+"4	LINE	0
+	
+	typedef struct ISCA_StdForm {
+"5	LINE	0
+	ISCA_LOG:–ò–Ω–∏—Ü–∏–∞–ª–∏–∑–∞—Ü–∏—è ISCA...
+	ISCA_LOG:–í—Å—Ç–∞–≤–∫–∞ –æ–¥–Ω–æ–π —Ñ–æ—Ä–º—ã –≤ –¥—Ä—É–≥—É—é
+	ISCA_LOG:–ü—Ä–µ–∫—Ä–∞—â–µ–Ω–∏–µ —Ä–∞–±–æ—Ç—ã ISCA...
+	ISCA_LOG:–ò–Ω–∏—Ü–∏–∞–ª–∏–∑–∞—Ü–∏—è ISCA...
+	ISCA_LOG:–í—Å—Ç–∞–≤–∫–∞ –æ–¥–Ω–æ–π —Ñ–æ—Ä–º—ã –≤ –¥—Ä—É–≥—É—é
+	ISCA_LOG:–ü—Ä–µ–∫—Ä–∞—â–µ–Ω–∏–µ —Ä–∞–±–æ—Ç—ã ISCA...
+"6	LINE	0
+	inline char system_colddd
+"7	LINE	0
+	\s
+"8	LINE	0
+	ISCA_LOG:–ò–Ω–∏—Ü–∏–∞–ª–∏–∑–∞—Ü–∏—è ISCA...
+	ISCA_LOG:–ü—Ä–µ–∫—Ä–∞—â–µ–Ω–∏–µ —Ä–∞–±–æ—Ç—ã ISCA...
+"9	LINE	0
+	ISCA_LOG:–ü—Ä–µ–∫—Ä–∞—â–µ–Ω–∏–µ —Ä–∞–±–æ—Ç—ã ISCA...
+"f	LINE	0
+		"fyas
+"j	CHAR	0
+	878
+<jjjjjkkkkkkkkjjjjkkjjjjjjjljjjjjjkjkjjjjjjjjjjjjjjjjkjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjkjhkhjkhhhhhhhhlllllllllllllllllllllllljjjjjjjjjjjjkkkkkkkkkkkkjjkjjjjjjjkjjjkkkkjjkkklhhhlhhllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllljjjjjjjjjjjjjjjjjhjkkjkjjjjjkkkkkkkkkkkkkkkkkjjjkkkkkkkkkkkkkkkkkkjkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjjkkkvlje$<jkvjuhvj$:w TESTjjjjjjjjjjjjjjjjjjjjjjjjjjkkkjjkjjjjkjkjjk:r TESTkklljjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkjj:r TESTLjkkkkkkkkkkkkkk:r !lsjjkkkkkkkkkkkkkkkkkkkkkjjjdddddddduuuuuuuujjkjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+"w	CHAR	0
+	2824
+<ww:w:e ./.Äkbiosystem.cpp#i#inc,ÄkbuÄkblude <Äkb"iosystem.h":wÄkbÄkbÄkb:wljjkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjkkkvjjjjjjkxhpddjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjj:wjjjjjjjjjjkjkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkk:next:argsjjjkk:args:args:e ./Ma	jjjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjkkkkkky$y$opjkhhhhhhhhhhhhhhhhhhhkjldbiIOllllllldwiiosystemjjjk^y$jkopkkkjkjjkkhhhhhhhhhhhhhhhhhhhywjjjeeeeeeeeeehpudiwpuuxiwlhlhceIOSRC^ceIOSRÄkbÄkbOBJ:wjjjjjjkkkkkj$a $(IOOBJ)jjjjjjjjjjjkkkjjjjjkjkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjkkkhhhhhhhy$jjjjjjjjjjjjjjkkokpkoja : $(IOSRC)jjkkkk$^y$jkkkjjjjjkjkop0i		:wjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkjlkkkkjjkkkkkjjjjjko#include :Äkb"/.ÄkbÄkb./iosystem.h>Äkb"jjddddddddjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjkj:wjk:wkjj:w:makeljjkkkkkkkkkkkkkjjjkjkjjjjjkkkvkvj$xkjkjkopjjjkdd:wjkkkkDjjjkjpojkkÄkbÄkbÄkbjkjkkkkkdd:w:makeko#include <string.Äkb>#includr <ÄkbÄkbÄkbe <cstdlib>:w:make:aÄkb!make clenÄkban:makekjjjjjkkkjkkjkkkkkkkkkkkkkkkkkkkkkkkjkkjkjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkjkkkkkkjjjjjj:aÄkbmakeggjjjkjkjo#include <fstrwamÄkbÄkbÄkbeam>w:w:w:make:./ÄkbÄkb!./f	k:openÄkbÄkbÄkbÄkbe ./i			jjjjjjjjkkkkkkkkkkkkkkkkkkjkdd9ddjw:w:!./i	Äkbio		Äkb		Äkb			jjlh:close++jkkk----+wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkk:wk:split io		:close---=kk-----:vsooÄkbÄkbplit 					jjjjjjjjjjkjk==++:set mou	=aÄ˝,Ä˝-Ä˝.Ä˝,Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝.Ä˝KÄ˝KÄ˝KÄ˝LÄ˝KÄ˝KÄ˝LÄ˝LÄ˝,Ä˝-Ä˝.Ä˝,Ä˝.Ä˝,Ä˝.Ä¸ Ä˝,Ä¸ Ä˝.Ä˝,Ä˝.Ä˝,Ä˝.Ä¸ Ä˝,Ä¸ Ä˝.Ä¸@Ä˝,Ä¸@Ä˝.Ä˝,Ä˝.Ä¸ Ä˝,Ä¸ Ä˝.Ä¸@Ä˝,Ä¸@Ä˝.Ä˝,Ä˝.Ä¸ Ä˝,Ä¸ Ä˝.Ä˝,Ä˝.Ä˝,Ä˝-Ä˝-Ä˝-Ä˝.Ä˝,Ä˝-Ä˝.Ä˝,Ä˝-Ä˝-Ä˝.Ä˝,Ä˝.Ä˝KÄ˝KÄ˝KÄ˝KÄ˝,Ä˝.jjjkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkjjkjjjjjjkkkkkÄ˝,Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝.Ä˝KÄ˝KÄ˝LÄ˝,Ä˝-Ä˝-Ä˝-Ä˝-Ä˝.Ä˝,Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝-Ä˝.Ä˝LÄ˝Ljkkjhhjku:!mkdir iosusyÄkbÄkbÄkbystemÄkbmÄkbÄkbÄkb:!ls:!ls --cooloÄkbÄkbÄkblo		r		=auoÄkbtojkjjkjjjjjjkjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjkkkkkjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjdd:wjjjjjjjjjjjjjjjjjjjjjjkkkkkkjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjkkjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkiIÄkb	:auto			
+"-	CHAR	0
+	forward
+
+# –ì–ª–æ–±–∞–ª—å–Ω—ã–µ –æ—Ç–º–µ—Ç–∫–∏:
+'B  13  1  /usr/share/vim/vim74/doc/help.txt
+'0  33  0  ~/.vimrc
+'1  52  0  ~/Projects/ISCA-API/testing/framework.cpp
+'2  59  15  ~/Projects/ISCA-API/testing/framework.cpp
+'3  16  0  ~/Projects/ISCA-API/testing/framework.cpp
+'4  1  0  ~/.vimrc
+'5  53  0  ~/.vimrc
+'6  19  102  ~/.vimrc
+'7  18  35  ~/.vimrc
+'8  21  74  ~/.vimrc
+'9  1  0  ~/Projects/ISCA-API/testing/framework.cpp
+
+# –°–ø–∏—Å–æ–∫ –ø—Ä—ã–∂–∫–æ–≤ (—Å–Ω–∞—á–∞–ª–∞ –±–æ–ª–µ–µ —Å–≤–µ–∂–∏–µ):
+-'  33  0  ~/.vimrc
+-'  34  0  ~/.vimrc
+-'  35  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  52  0  ~/Projects/ISCA-API/testing/framework.cpp
+-'  1  0  ~/Projects/ISCA-API/testing/framework.cpp
+-'  59  15  ~/Projects/ISCA-API/testing/framework.cpp
+-'  10  1  ~/Projects/ISCA-API/testing/framework.cpp
+-'  7  2  ~/Projects/ISCA-API/testing/framework.cpp
+-'  16  0  ~/Projects/ISCA-API/testing/framework.cpp
+-'  53  0  ~/.vimrc
+-'  19  102  ~/.vimrc
+-'  18  35  ~/.vimrc
+-'  21  0  ~/.vimrc
+-'  1  0  ~/.vim/plugin/ftplugin/c.vim
+-'  54  14  ~/Projects/ISCA-API/testing/framework.cpp
+-'  53  14  ~/Projects/ISCA-API/testing/framework.cpp
+-'  24  17  ~/.vimrc
+-'  25  17  ~/.vimrc
+-'  26  0  ~/.vimrc
+-'  1  0  ~/Projects/ISCA-API/testing/initlog.log
+-'  8  0  ~/Projects/smallsh
+-'  312  22  /tmp/mozilla_viktor960/FacultyDataBase.pas
+-'  290  2  /tmp/mozilla_viktor960/FacultyDataBase.pas
+-'  291  2  /tmp/mozilla_viktor960/FacultyDataBase.pas
+-'  85  2  /tmp/mozilla_viktor960/FacultyDataBase.pas
+-'  1  0  /tmp/mozilla_viktor960/FacultyDataBase.pas
+-'  6  0  ~/study/C/interesting/input2.c
+-'  7  9  ~/study/C/interesting/input2.c
+-'  5  30  ~/study/C/interesting/input2.c
+-'  8  0  ~/study/C/interesting/input2.c
+-'  2  0  ~/Projects/hos/desktop/desktop.cpp
+-'  3  0  ~/Projects/hos/desktop/desktop.cpp
+-'  4  0  ~/Projects/hos/desktop/desktop.cpp
+-'  1  0  ~/Projects/hos/desktop/desktop.cpp
+-'  27  0  ~/.vimrc
+-'  1  0  ~/thatfile
+-'  149  0  ~/Projects/ISCA-API/testing/framework.cpp
+-'  129  1  ~/Projects/ISCA-API/testing/framework.cpp
+-'  98  6  ~/Projects/ISCA-API/testing/framework.cpp
+-'  64  1  ~/Projects/ISCA-API/testing/framework.cpp
+-'  65  0  ~/Projects/ISCA-API/testing/framework.cpp
+-'  1  0  /usr/share/vim/vim74/doc/usr_09.txt
+-'  599  17  /usr/share/vim/vim74/doc/usr_08.txt
+-'  493  0  /usr/share/vim/vim74/doc/usr_08.txt
+-'  349  8  /usr/share/vim/vim74/doc/usr_08.txt
+-'  208  1  /usr/share/vim/vim74/doc/usr_08.txt
+-'  477  24  /usr/share/vim/vim74/doc/usr_07.txt
+-'  63  0  /usr/share/vim/vim74/doc/usr_07.txt
+-'  1  0  ~/Projects/smallsh/parses/parse.c
+-'  66  31  /usr/share/vim/vim74/doc/usr_08.txt
+-'  355  5  /usr/share/vim/vim74/doc/usr_07.txt
+-'  356  0  /usr/share/vim/vim74/doc/usr_07.txt
+-'  223  0  /usr/share/vim/vim74/doc/usr_07.txt
+-'  192  0  /usr/share/vim/vim74/doc/usr_07.txt
+-'  75  0  /usr/share/vim/vim74/doc/usr_07.txt
+-'  1  0  /usr/share/vim/vim74/doc/usr_08.txt
+-'  983  35  /tmp/tutorUxRIkl
+-'  1  0  /tmp/tutorUxRIkl
+-'  935  23  /tmp/tutors3r6mP
+-'  806  0  /tmp/tutors3r6mP
+-'  705  5  /tmp/tutors3r6mP
+-'  1  0  /tmp/tutors3r6mP
+-'  912  0  /tmp/tutoreepYRr
+-'  928  0  /tmp/tutoreepYRr
+-'  925  0  /tmp/tutoreepYRr
+-'  922  0  /tmp/tutoreepYRr
+-'  917  0  /tmp/tutoreepYRr
+-'  913  0  /tmp/tutoreepYRr
+-'  910  0  /tmp/tutoreepYRr
+-'  907  0  /tmp/tutoreepYRr
+-'  902  0  /tmp/tutoreepYRr
+-'  899  0  /tmp/tutoreepYRr
+-'  894  0  /tmp/tutoreepYRr
+-'  888  0  /tmp/tutoreepYRr
+-'  885  0  /tmp/tutoreepYRr
+-'  882  0  /tmp/tutoreepYRr
+-'  880  0  /tmp/tutoreepYRr
+-'  876  0  /tmp/tutoreepYRr
+-'  874  0  /tmp/tutoreepYRr
+-'  872  0  /tmp/tutoreepYRr
+-'  870  0  /tmp/tutoreepYRr
+-'  868  0  /tmp/tutoreepYRr
+-'  865  0  /tmp/tutoreepYRr
+-'  861  0  /tmp/tutoreepYRr
+-'  858  0  /tmp/tutoreepYRr
+-'  855  0  /tmp/tutoreepYRr
+-'  853  0  /tmp/tutoreepYRr
+-'  851  0  /tmp/tutoreepYRr
+-'  848  0  /tmp/tutoreepYRr
+-'  846  0  /tmp/tutoreepYRr
+-'  845  21  /tmp/tutoreepYRr
+-'  780  71  /tmp/tutoreepYRr
+-'  803  33  /tmp/tutoreepYRr
+-'  827  8  /tmp/tutoreepYRr
+-'  863  85  /tmp/tutoreepYRr
+-'  33  0  ~/.vimrc
+
+# –ò—Å—Ç–æ—Ä–∏—è –º–µ—Å—Ç–Ω—ã—Ö –æ—Ç–º–µ—Ç–æ–∫ (–æ—Ç –±–æ–ª–µ–µ —Å–≤–µ–∂–∏—Ö –∫ —Å—Ç–∞—Ä—ã–º):
+
+> ~/.vimrc
+	"	33	0
+	.	33	0
+	+	1	0
+	+	80	0
+	+	1	13
+	+	1	13
+	+	1	14
+	+	1	14
+	+	80	0
+	+	1	14
+	+	80	0
+	+	80	0
+	+	80	0
+	+	1	0
+	+	80	0
+	+	1	0
+	+	80	23
+	+	1	0
+	+	1	0
+	+	1	0
+	+	80	0
+	+	1	0
+	+	1	0
+	+	80	0
+	+	1	1
+	+	1	0
+	+	1	23
+	+	1	0
+	+	1	22
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	80	0
+	+	79	5
+	+	76	0
+	+	77	0
+	+	29	0
+	+	13	19
+	+	22	14
+	+	29	0
+	+	26	0
+	+	21	11
+	+	27	0
+	+	25	17
+	+	24	17
+	+	15	13
+	+	17	10
+	+	18	32
+	+	21	212
+	+	21	115
+	+	21	0
+	+	21	80
+	+	21	0
+	+	21	0
+	+	21	0
+	+	21	106
+	+	21	0
+	+	21	0
+	+	19	101
+	+	18	0
+	+	19	102
+	+	27	17
+	+	35	37
+	+	37	39
+	+	38	15
+	+	42	8
+	+	44	10
+	+	45	51
+	+	46	0
+	+	46	48
+	+	34	0
+	+	33	0
+
+> ~/Projects/ISCA-API/testing/framework.cpp
+	"	52	0
+	^	10	2
+	.	10	0
+	+	65	0
+	+	62	0
+	+	64	0
+	+	63	0
+	+	60	2
+	+	115	0
+	+	116	0
+	+	114	2
+	+	82	62
+	+	82	63
+	+	82	75
+	+	116	0
+	+	6	16
+	+	19	0
+	+	18	8
+	+	21	0
+	+	18	7
+	+	19	1
+	+	16	0
+	+	17	0
+	+	19	1
+	+	53	0
+	+	16	0
+	+	7	0
+	+	10	0
+	a	6	16
+
+> /usr/share/vim/vim74/doc/options.txt
+	"	5885	0
+
+> ~/.vim/plugin/ftplugin/c.vim
+	"	1	0
+	^	36	35
+	.	36	7
+	+	30	10
+	+	30	0
+	+	30	0
+	+	33	0
+	+	36	26
+	+	36	7
+
+> ~/Projects/ISCA-API/testing/initlog.log
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Projects/ISCA-API/testing/Makefile
+	"	9	18
+	^	9	19
+	.	9	18
+	+	16	15
+	+	19	0
+	+	20	0
+	+	19	0
+	+	19	4
+	+	21	27
+	+	35	0
+	+	33	0
+	+	32	0
+	+	33	18
+	+	34	1
+	+	10	0
+	+	9	18
+
+> /tmp/mozilla_viktor960/FacultyDataBase.pas
+	"	312	22
+
+> /usr/share/vim/vim74/doc/usr_06.txt
+	"	21	19
+
+> /usr/share/vim/vim74/doc/usr_05.txt
+	"	408	0
+	a	148	7
+
+> /usr/share/vim/vim74/doc/filetype.txt
+	"	318	36
+
+> ~/.vim/plugin/ftplugin/cpp.vim
+	"	1	0
+
+> /usr/share/vim/vim74/doc/help.txt
+	"	52	0
+
+> /usr/share/vim/vim74/doc/usr_04.txt
+	"	506	0
+	^	454	21
+	.	495	6
+	+	489	18
+	+	489	15
+	+	489	5
+	+	489	0
+	+	489	0
+	+	489	0
+	+	489	0
+	+	489	18
+	+	489	26
+	+	489	10
+	+	489	0
+	+	489	0
+	+	489	0
+	+	489	14
+	+	489	15
+	+	489	15
+	+	489	17
+	+	489	0
+	+	489	20
+	+	489	0
+	+	454	20
+	+	495	6
+
+> ~/Projects/ISCA-API/testing/iosystem.c
+	"	1	0
+
+> ~/Projects/ISCA-API/testing/iosystem.h
+	"	6	0
+	^	8	37
+	.	8	35
+	+	2	15
+	+	1	15
+	+	12	0
+	+	12	0
+	+	12	5
+	+	12	56
+	+	12	0
+	+	6	0
+	+	6	0
+	+	11	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	9	0
+	+	8	0
+	+	9	58
+	+	10	0
+	+	8	35
+
+> ~/Projects/ISCA-API/testing/iosystem.cpp
+	"	82	1
+	^	5	18
+	.	5	17
+	+	8	0
+	+	1	0
+	+	6	0
+	+	1	0
+	+	6	0
+	+	7	0
+	+	1	0
+	+	3	17
+	+	5	17
+
+> ~/Projects/hos/desktop/desktop.cpp
+	"	2	0
+	.	2	0
+	+	3	0
+	+	2	0
+
+> ~/study/C/interesting/input2.c
+	"	6	0
+	^	6	24
+	.	6	0
+	+	5	29
+	+	5	31
+	+	5	29
+	+	5	29
+	+	7	6
+	+	7	0
+	+	5	29
+	+	5	29
+	+	6	9
+	+	6	0
+
+> /usr/share/vim/vim74/doc/usr_03.txt
+	"	652	16
+	e	626	0
+	s	628	0
+
+> /usr/share/vim/vim74/doc/starting.txt
+	"	853	51
+
+> ~/.vim/doc/matchit.txt
+	"	103	0
+
+> /usr/share/vim/vim74/doc/usr_07.txt
+	"	477	24
+
+> /usr/share/vim/vim74/doc/usr_08.txt
+	"	599	17
+
+> ~/Projects/smallsh/parses/parse.c
+	"	92	0
+
+> ~/Projects/hos/configurator/configurator.cpp
+	"	15	0
+
+> ~/Projects/smallsh/shell.h
+	"	4	0
+
+> ~/thatfile
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> /usr/share/vim/vim74/doc/usr_09.txt
+	"	1	0
+
+> ~/Projects/ISCA-API/testing/framework.o
+	"	7	0
+
+> /usr/share/vim/vim74/doc/usr_41.txt
+	"	886	1
+
+> /usr/share/vim/vim74/doc/usr_40.txt
+	"	17	19
+
+> /usr/share/vim/vim74/doc/usr_32.txt
+	"	18	19
+
+> /usr/share/vim/vim74/doc/usr_31.txt
+	"	19	19
+
+> /usr/share/vim/vim74/doc/usr_30.txt
+	"	253	8
+
+> /usr/share/vim/vim74/doc/usr_10.txt
+	"	18	0
+
+> /usr/share/vim/vim74/doc/usr_11.txt
+	"	18	19
+
+> /usr/share/vim/vim74/doc/usr_12.txt
+	"	21	19
+
+> /usr/share/vim/vim74/doc/usr_20.txt
+	"	12	0
+
+> /usr/share/vim/vim74/doc/editing.txt
+	"	702	35
+
+> /tmp/tutorLiW6dA
+	"	860	0
+
+> ~/Projects/hos/fswork/fswork.cpp
+	"	92	15
+	.	44	0
+	+	44	0
+
+> ~/option-window
+	"	301	0
+	.	922	0
+	+	922	0
+
+> ~/.vim/plugin/justify.vim
+	"	3	0
+	.	3	0
+	+	316	0
+	+	293	0
+	+	293	0
+	+	293	0
+	+	194	0
+	+	3	0
+	+	3	0
+	+	316	0
+	+	50	0
+	+	95	0
+	+	95	32
+	+	95	0
+	+	293	0
+	+	293	0
+	+	97	0
+	+	98	0
+	+	3	0
+
+> ~/.vim/plugin/ftplugin.vim
+	"	1	31
+	.	2	0
+	+	2	0
+
+> /usr/share/vim/vim74/gvimrc_example.vim
+	"	11	0
+
+> /usr/share/vim/vim74/doc/usr_toc.txt
+	"	80	9
+
+> /tmp/tutorUxRIkl
+	"	983	35
+
+> /tmp/tutors3r6mP
+	"	935	23
+
+> /tmp/tutoreepYRr
+	"	912	0
+	^	901	2
+	.	780	0
+	+	421	113
+	+	752	23
+	+	757	13
+	+	780	103
+	+	780	20
+	+	803	48
+	+	828	0
+	+	827	46
+	+	864	23
+	+	864	25
+	+	866	45
+	+	867	111
+	+	872	25
+	+	873	75
+	+	900	260
+	+	900	144
+	+	900	0
+	+	900	0
+	+	900	0
+	+	901	0
+	+	780	0
+
+> /usr/share/vim/vim74/doc/motion.txt
+	"	333	25
+	g	219	36
+	j	219	36
+
+> /usr/share/vim/vim74/doc/windows.txt
+	"	1171	0
+
+> /tmp/tutor9InFXS
+	"	854	2
+	.	696	0
+	+	24	141
+	+	24	143
+	+	24	221
+	+	24	274
+	+	24	275
+	+	24	275
+	+	24	405
+	+	25	0
+	+	75	67
+	+	82	39
+	+	84	0
+	+	86	65
+	+	88	4
+	+	109	85
+	+	131	87
+	+	133	70
+	+	208	68
+	+	227	83
+	+	362	39
+	+	362	0
+	+	362	0
+	+	362	0
+	+	295	39
+	+	317	0
+	+	344	98
+	+	344	0
+	+	354	0
+	+	356	0
+	+	358	0
+	+	358	0
+	+	358	0
+	+	393	0
+	+	393	0
+	+	396	0
+	+	391	0
+	+	397	0
+	+	397	0
+	+	393	0
+	+	396	0
+	+	392	0
+	+	393	0
+	+	397	0
+	+	397	0
+	+	395	0
+	+	411	115
+	+	451	98
+	+	451	200
+	+	451	0
+	+	436	99
+	+	460	92
+	+	468	0
+	+	471	0
+	+	472	14
+	+	506	49
+	+	507	0
+	+	456	0
+	+	509	0
+	+	200	2
+	+	200	3
+	+	200	0
+	+	200	0
+	+	564	0
+	+	624	0
+	+	667	0
+	+	698	0
+	+	695	0
+	+	698	0
+	+	696	0
+
+> /usr/share/vim/vim74/doc/usr_01.txt
+	"	129	32
