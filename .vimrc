@@ -31,6 +31,11 @@ set completeopt=longest,menuone " Опции автодополнения
 map <S-Insert> <MiddleMouse>
 map! <S-Insert> <MiddleMouse>
 
+nnoremap <silent><C-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
+nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
+nnoremap <silent>j :set paste<CR>m`o<Esc>``:set nopaste<CR>
+nnoremap <silent>k :set paste<CR>m`O<Esc>``:set nopaste<CR>
+
 " Tab wrapper
 function! InsertTabWrapper(direction)
 	let col = col(".") - 1
