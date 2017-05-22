@@ -19,6 +19,8 @@ setlocal commentstring=#\ %s
 
 setlocal omnifunc=pythoncomplete#Complete
 
+set number
+
 set wildignore+=*.pyc
 
 nnoremap <silent> <buffer> ]] :call <SID>Python_jump('/^\(class\\|def\)')<cr>
