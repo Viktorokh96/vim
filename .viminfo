@@ -1,5 +1,8 @@
-# Этот файл viminfo автоматически создан Vim 7.4.
+# Этот файл viminfo автоматически создан Vim 8.0.
 # Его можно (осторожно!) редактировать.
+
+# Viminfo version
+|1,4
 
 # Значение опции 'encoding' в момент записи файла
 *encoding=utf-8
@@ -8,1528 +11,1406 @@
 # hlsearch on (H) or off (h):
 ~h
 # Последний Шаблон поиска:
-~MSle0~/^
+~MSle0/\m^\s*$
 
 # Последний Замена Шаблон поиска:
-~MSle0&\m^\s*$
+~MSle0~&\m^\s*$
 
 # Последняя строка для замены:
 $
 
 # Командная строка, история (начиная от свежего к старому):
 :q
+|2,0,1525436119,,"q"
+:PlugInstall
+|2,0,1525435978,,"PlugInstall"
+:set nopaste
+|2,0,1525435972,,"set nopaste"
 :w
-:s
-:^
-:setlocal spell spelllang=ru_ru,en_us
-:e overview.tex
-:!pdflatex okhotnikov.tex
-:tabnew src/lan.h
-:e realization.tex
-:Lw
-:e src/main.c
-:e src/usart.h
-:e src/usart.c
-:.,.+1
-:tabnew reportrequirements.tex
-:vsplit src/lan.h
-:tabnew overview.tex
-:!ls img
-:set nohlsearch
-:tabnew src/lan.c
-:tabnew components.tex
-:tabnew okhotnikov.tex
-:next
-:q!
-:!./mining.py
-:xall
-:!pdflatex ./okhotnikov.tex
-:e ~/course_proj/lan.c
-:%s/\r//g
-:vsplit ~/course_proj/lan.h
-:e ~/course_proj/lan.h
-: 
-:!ls src/
-:vsplit ~/course_proj/enc28j60.h
-:e ~/course_proj/enc28j60.h
-:tabnew ~/course_proj/enc28j60.c
-:!ls src
-:tabnew realization.tex
-:.,.+7w
-:e components.tex
-:!ls 
-:!ls | grep spi
-:!ls
-:!./iradate.sh 421-12-12
-:!./iradate.sh 421-32-12
-:!./iradate.sh 421-2-1
-:!./iradate.sh 234-1-2
-:!./iradate.sh 234-32-12
-:!./iradate.sh 234-32-1
+|2,0,1525435970,,"w"
+:set paste
+|2,0,1525435967,,"set paste"
+:Plug
+|2,0,1525430147,,"Plug"
 :set number
+|2,0,1524905569,,"set number"
+:e
+|2,0,1524904535,,"e"
+:NERDTree
+|2,0,1523955530,,"NERDTree"
+:e syn_an_demo.pl
+|2,0,1523955281,,"e syn_an_demo.pl"
+:e syn_an4.pl
+|2,0,1523955136,,"e syn_an4.pl"
+:e syn_an3.pl
+|2,0,1523955128,,"e syn_an3.pl"
+:q!
+|2,0,1524415467,,"q!"
+:w!
+|2,0,1524415465,,"w!"
+:jjkk
+|2,0,1524414706,,"jjkk"
+:W
+|2,0,1523804515,,"W"
+:e ++enc=cp1251
+|2,0,1523790741,,"e ++enc=cp1251"
+:e pcaptest.c
+|2,0,1523350380,,"e pcaptest.c"
+:e ipcapt.c
+|2,0,1523350286,,"e ipcapt.c"
+:e pcapcapt.c
+|2,0,1523350267,,"e pcapcapt.c"
+:.,.+1q
+|2,0,1523002624,,".,.+1q"
+:%s/sup_//g
+|2,0,1522660454,,"%s/sup_//g"
+:e!
+|2,0,1522658355,,"e!"
+:%s/bot_rev/bot_sup/g
+|2,0,1522653302,,"%s/bot_rev/bot_sup/g"
+:read !date
+|2,0,1522758908,,"read !date"
+:- not(местоим(Г1,_)), окончания(Список_О), member(О, Список_О), concat(Г2, О, Г1), фильтр_оконч(Х1, Х2).
+|2,0,1522136811,,"- not(местоим(Г1,_)), окончания(Список_О), member(О, Список_О), concat(Г2, О, Г1), фильтр_оконч(Х1, Х2)."
+:-
+|2,0,1522136314,,"-"
+:- фильтр_2(Х1, Х2). % слово перепишется в новый список без изм., если не является словом от первого лица
+|2,0,1522136314,,"- фильтр_2(Х1, Х2). % слово перепишется в новый список без изм., если не является словом от первого лица"
+:- % выполнится замена, если будет найдено слово от 1-го лица
+|2,0,1522136314,,"- % выполнится замена, если будет найдено слово от 1-го лица"
+:- фильтр_синоним(Х1, Х2). % слово перепишется в новый список без изм., если синоним не будет найден
+|2,0,1522136313,,"- фильтр_синоним(Х1, Х2). % слово перепишется в новый список без изм., если синоним не будет найден"
+:- синоним(Г1, Г2), фильтр_синоним(Х1, Х2). % выполнится замена, если будет найден синоним
+|2,0,1522136313,,"- синоним(Г1, Г2), фильтр_синоним(Х1, Х2). % выполнится замена, если будет найден синоним"
+:e ++inc=cp1251
+|2,0,1522135433,,"e ++inc=cp1251"
+:.e
+|2,0,1521713964,,".e"
+:e run.py
+|2,0,1521060088,,"e run.py"
+:!pwd
+|2,0,1520623127,,"!pwd"
+::w
+|2,0,1520621054,,":w"
+:Lw
+|2,0,1520599665,,"Lw"
+:e scirep.tex
+|2,0,1520596944,,"e scirep.tex"
+:e scirep.pdf
+|2,0,1520596940,,"e scirep.pdf"
+:e content.txt
+|2,0,1520594079,,"e content.txt"
+:!mv content.md content.txt
+|2,0,1520594077,,"!mv content.md content.txt"
+: 
+|2,0,1520556867,," "
+:cd ../2/
+|2,0,1520553084,,"cd ../2/"
+:cd ../1e/
+|2,0,1520505179,,"cd ../1e/"
+:.,.+4w
+|2,0,1520457941,,".,.+4w"
 
 # Строка поиска, история (начиная от свежего к старому):
-? ^
-?/безна
-?/ARP
-?/Заголовки
-?/Модуль
-?/модуль приемо
-?/модуль приема
-?/конч
-?/конечн
-?/количества
-?/Echo-ответ
-?/enc
-?/PHY
-?/item
-?/УСПД
 ? \m^\s*$
-?/cite
-?/IP
-??figure
-? \r
-?/\r
-?/init
-?/SPI
-?/talbe
-?/table
-?/Прото
-?/расчета
-?/два
-?/серерм
-?/сервр
-?/на котором
-?/например
-?/например Eth
-?/технологии
-?/технологий
-?/TCP и 
-?/уровене
-?/полнодуплексый
-?/которые
-?/на уровне
-? @$
-?/PURPL
-?/sec
-??flash
-?/ref
-?/Message
-?/50
-?/100
-??100
-??Message
+|2,1,1525435942,,"\\m^\\s*$"
+?/Plu
+|2,1,1525435878,47,"Plu"
+?/id_de
+|2,1,1523956088,47,"id_de"
+?/DNS
+|2,1,1524838511,47,"DNS"
+?/all_
+|2,1,1524835331,47,"all_"
+?/dns
+|2,1,1524435608,47,"dns"
+?/Open
+|2,1,1524410805,47,"Open"
+?/get_lamps
+|2,1,1523884987,47,"get_lamps"
+?/get_lam
+|2,1,1523884981,47,"get_lam"
+?/range
+|2,1,1523884977,47,"range"
+?/Unkn
+|2,1,1523884963,47,"Unkn"
+?/CRE
+|2,1,1523883035,47,"CRE"
+?/up
+|2,1,1523882852,47,"up"
+?/Unk
+|2,1,1523884925,47,"Unk"
+? \<socks5\>
+|2,1,1523876722,,"\\<socks5\\>"
+?/alt-tab
+|2,1,1523484648,47,"alt-tab"
+?/tab
+|2,1,1523484634,47,"tab"
+?/tcp
+|2,1,1523351810,47,"tcp"
+?/TA_CE
+|2,1,1523281033,47,"TA_CE"
+?/>>
+|2,1,1522964244,47,">>"
+?/register
+|2,1,1522687021,47,"register"
+?/rs
+|2,1,1522687015,47,"rs"
+?/INLINE_REG
+|2,1,1522686941,47,"INLINE_REG"
+?/show_co
+|2,1,1522686040,47,"show_co"
+?/another
+|2,1,1522685957,47,"another"
+?/import pdb
+|2,1,1522685041,47,"import pdb"
+?/pdb
+|2,1,1522685037,47,"pdb"
+?/dict
+|2,1,1522683888,47,"dict"
+?/counter_manag_menu
+|2,1,1522667029,47,"counter_manag_menu"
+?/text ==
+|2,1,1522665838,47,"text =="
+?/on_loca
+|2,1,1522665554,47,"on_loca"
+?/main
+|2,1,1522665265,47,"main"
+?/main_menu
+|2,1,1522665243,47,"main_menu"
+?/sup
+|2,1,1522662479,47,"sup"
+? sup_
+|2,1,1522660454,,"sup_"
+?/sup_
+|2,1,1522660441,47,"sup_"
+?/get_fil
+|2,1,1522659765,47,"get_fil"
+?/CounterManag
+|2,1,1522658701,47,"CounterManag"
+?/set_state
+|2,1,1522658680,47,"set_state"
+?/CounterManagMenu
+|2,1,1522658641,47,"CounterManagMenu"
+? bot_rev
+|2,1,1522653302,,"bot_rev"
+?/bot_rev
+|2,1,1522653282,47,"bot_rev"
+?/webho
+|2,1,1522652349,47,"webho"
+?/ssl
+|2,1,1522652346,47,"ssl"
+?/ev
+|2,1,1522652339,47,"ev"
+?/list
+|2,1,1522651388,47,"list"
+?/ответ_9
+|2,1,1522748057,47,"ответ_9"
+?/img
+|2,1,1522500014,47,"img"
+?/assert
+|2,1,1522417105,47,"assert"
+?/lamp_db
+|2,1,1522241132,47,"lamp_db"
 
 # Выражение, история (начиная от свежего к старому):
 
 # Строка ввода, история (начиная от свежего к старому):
-@[\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+@/home/viktor96/Документы/Platonov/2/content.md
+|2,3,1520553060,,"/home/viktor96/Документы/Platonov/2/content.md"
+@/home/viktor96/Документы/Platonov/2/img/content.md
+|2,3,1520553042,,"/home/viktor96/Документы/Platonov/2/img/content.md"
+@/home/viktor96/Документы/Platonov/2/img
+|2,3,1520553035,,"/home/viktor96/Документы/Platonov/2/img"
+@/home/viktor96/Документы/Platonov/1b/content.tex
+|2,3,1520449286,,"/home/viktor96/Документы/Platonov/1b/content.tex"
 
-# Строка ввода, история (начиная от свежего к старому):
+# Debug Line, история (начиная от свежего к старому):
 
 # Регистры:
 "0	LINE	0
-	3�eg�����w��q�
-	�p��
-	��
-	؎
-	ׁ
-	
-	Y�
-	
-	L�
-	ۑ�
-	
-	x�
-	
-	a�
-	$�
-	
-	e��
-	&�
-	�
-	<��
-	�
-	!&����L����
-	�
-	 ��
-	
-	L�
-	 Ե
-	�Ѹ
-	
-	��
-	
-	[�
-	
-	ƾ
-	�����
-	�һ���C䰸����
-	�2�
-	�
-	��
-	���
-	���������
-	���
-	)�
-	)!�
-	)���
-	)������9��
-	��
-	(��
-	x5�
-	xV��
+	api_token = XXXXXXXXX:AAGp1pdtE_2Tv71ahs5Mce92Ebh9hApL6ck
+|3,0,0,1,1,0,1525434088,"api_token = XXXXXXXXX:AAGp1pdtE_2Tv71ahs5Mce92Ebh9hApL6ck"
 ""1	LINE	0
-	русская расскладка  
-"2	LINE	0
-	аы:asdfвыа65ывфа6ыва:выаывываывsdfasdfвыафываsdfasd
-"3	LINE	0
-	" По умолчанию - латинская раскладка
-	set iminsert=0
-"4	LINE	0
-	вот это прикол
-"5	LINE	0
-	" По умолчанию - латинская раскладка
-	set iminsert=0
-"6	LINE	0
 	
+|3,1,1,1,1,0,1525435942,""
+"2	LINE	0
+	
+|3,0,2,1,1,0,1525435942,""
+"3	LINE	0
+	
+|3,0,3,1,1,0,1525435866,""
+"4	LINE	0
+	proxy_link = https://t.me/socks?server=telegram.vpn99.net&port=55655
+|3,0,4,1,1,0,1525434067,"proxy_link = https://t.me/socks?server=telegram.vpn99.net&port=55655"
+"5	CHAR	0
+	s_verbp([VERB|TOKL],TOKL4,verbp3(VERB, VERBP)):-
+		is_verb(VERB),
+		s_verbp(VERBP).
+	
+|3,0,5,0,4,0,1524905710,"s_verbp([VERB|TOKL],TOKL4,verbp3(VERB, VERBP)):-","	is_verb(VERB),","	s_verbp(VERBP).",""
+"6	LINE	0
+	adverb('together').
+|3,0,6,1,1,0,1524904456,"adverb('together')."
 "7	LINE	0
-	950
-<3�eg�����w��q�n�p��n��n؎nׁnnY�nnL�nۑ�nnx�nna�n$�nne��n&�n�n<��n�n!&����L����n�n ��nnL�n Եn�Ѹnn��nn[�nnƾn�����n�һ���C䰸����n�2�n�n��n���n���������n���n)�n)!�n)���n)������9��n��n(��nx5�nxV��n(����n�����q��o�n�n75����-ܷ���n�����n�հ����n��nnn������������������������nn�nn!�nn!����nn��nn�����nn-��nn!����nn������nn����nnA��nn��nn9��nn#����nn��nn!��nnA����nn������nn�������nn!��nnb��nn!��nn�����nn#�n�nn!��nn!�nn!��nn!��nn��nn!�nn��nn9�nn��nn#��������������nn!��nn!�nn!��nn!��nn!��nn!���nn!�nnnnn
+	
+|3,0,7,1,1,0,1524904249,""
 "8	LINE	0
-	���ҁ�n6���nV�����n�n ��nnL�n Եn��n׺nnƾ�n	g�Қ�nʵnnY��n*����n1������nn'��M��nen��n
-"9	LINE	0
-	ڂnnY��nW�����n
-"f	LINE	0
-		"fyas
-"j	CHAR	0
-	878
-<jjjjjkkkkkkkkjjjjkkjjjjjjjljjjjjjkjkjjjjjjjjjjjjjjjjkjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjkjhkhjkhhhhhhhhlllllllllllllllllllllllljjjjjjjjjjjjkkkkkkkkkkkkjjkjjjjjjjkjjjkkkkjjkkklhhhlhhllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllljjjjjjjjjjjjjjjjjhjkkjkjjjjjkkkkkkkkkkkkkkkkkjjjkkkkkkkkkkkkkkkkkkjkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjjkkkvlje$<jkvjuhvj$:w TESTjjjjjjjjjjjjjjjjjjjjjjjjjjkkkjjkjjjjkjkjjk:r TESTkklljjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkjj:r TESTLjkkkkkkkkkkkkkk:r !lsjjkkkkkkkkkkkkkkkkkkkkkjjjdddddddduuuuuuuujjkjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-"w	CHAR	0
-	3247
-<ww:w:e ./.Ђkbiosystem.cpp#i#inc,ЂkbuЂkblude <Ђkb"iosystem.h":wЂkbЂkbЂkb:wljjkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjkkkvjjjjjjkxhpddjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjj:wjjjjjjjjjjkjkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkk:next:argsjjjkk:args:args:e ./Ma	jjjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjkkkkkky$y$opjkhhhhhhhhhhhhhhhhhhhkjldbiIOllllllldwiiosystemjjjk^y$jkopkkkjkjjkkhhhhhhhhhhhhhhhhhhhywjjjeeeeeeeeeehpudiwpuuxiwlhlhceIOSRC^ceIOSRЂkbЂkbOBJ:wjjjjjjkkkkkj$a $(IOOBJ)jjjjjjjjjjjkkkjjjjjkjkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjkkkhhhhhhhy$jjjjjjjjjjjjjjkkokpkoja : $(IOSRC)jjkkkk$^y$jkkkjjjjjkjkop0i		:wjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkjlkkkkjjkkkkkjjjjjko#include :Ђkb"/.ЂkbЂkb./iosystem.h>Ђkb"jjddddddddjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjkj:wjk:wkjj:w:makeljjkkkkkkkkkkkkkjjjkjkjjjjjkkkvkvj$xkjkjkopjjjkdd:wjkkkkDjjjkjpojkkЂkbЂkbЂkbjkjkkkkkdd:w:makeko#include <string.Ђkb>#includr <ЂkbЂkbЂkbe <cstdlib>:w:make:aЂkb!make clenЂkban:makekjjjjjkkkjkkjkkkkkkkkkkkkkkkkkkkkkkkjkkjkjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkjkkkkkkjjjjjj:aЂkbmakeggjjjkjkjo#include <fstrwamЂkbЂkbЂkbeam>w:w:w:make:./ЂkbЂkb!./f	k:openЂkbЂkbЂkbЂkbe ./i			jjjjjjjjkkkkkkkkkkkkkkkkkkjkdd9ddjw:w:!./i	Ђkbio		Ђkb		Ђkb			jjlh:close++jkkk----+wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkk:wk:split io		:close---=kk-----:vsooЂkbЂkbplit 					jjjjjjjjjjkjk==++:set mou	=aЂэ,Ђэ-Ђэ.Ђэ,Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ.ЂэKЂэKЂэKЂэLЂэKЂэKЂэLЂэLЂэ,Ђэ-Ђэ.Ђэ,Ђэ.Ђэ,Ђэ.Ђь Ђэ,Ђь Ђэ.Ђэ,Ђэ.Ђэ,Ђэ.Ђь Ђэ,Ђь Ђэ.Ђь@Ђэ,Ђь@Ђэ.Ђэ,Ђэ.Ђь Ђэ,Ђь Ђэ.Ђь@Ђэ,Ђь@Ђэ.Ђэ,Ђэ.Ђь Ђэ,Ђь Ђэ.Ђэ,Ђэ.Ђэ,Ђэ-Ђэ-Ђэ-Ђэ.Ђэ,Ђэ-Ђэ.Ђэ,Ђэ-Ђэ-Ђэ.Ђэ,Ђэ.ЂэKЂэKЂэKЂэKЂэ,Ђэ.jjjkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkjjkjjjjjjkkkkkЂэ,Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ.ЂэKЂэKЂэLЂэ,Ђэ-Ђэ-Ђэ-Ђэ-Ђэ.Ђэ,Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ-Ђэ.ЂэLЂэLjkkjhhjku:!mkdir iosusyЂkbЂkbЂkbystemЂkbmЂkbЂkbЂkb:!ls:!ls --cooloЂkbЂkbЂkblo		r		=auoЂkbtojkjjkjjjjjjkjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjkkkkkjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkjjdd:wjjjjjjjjjjjjjjjjjjjjjjkkkkkkjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjkkjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkiIЂkb	:auto			
+	is_noun(X):-noun(X),!.
+	is_noun(X):-noun(Y),concat(Y,'s',X),!.
+|3,0,8,1,2,0,1524904248,"is_noun(X):-noun(X),!.","is_noun(X):-noun(Y),concat(Y,'s',X),!."
+"9	CHAR	0
+	is_adverb(X):-adverb(X),!.
+	
+	is_adj(X):-adj(X),!.
+	
+|3,0,9,0,4,0,1524904245,"is_adverb(X):-adverb(X),!.","","is_adj(X):-adj(X),!.",""
 "-	CHAR	0
-	ёлка
+	n
+|3,0,36,0,1,0,1525435880,"n"
 
 # Глобальные отметки:
-'B  13  1  /usr/share/vim/vim74/doc/help.txt
-'0  1  0  ~/Projects/vim/.vimrc
-'1  1  0  ~/.vim/spell/ru.utf-8.sug
-'2  635  0  ~/.vim/spell/ru.utf-8.spl
-'3  1  0  ~/.vimrc
-'4  25  35  ~/.vimrc
-'5  21  1  ~/.vimrc
-'6  22  0  ~/.vimrc
-'7  29  13  ~/.vimrc
-'8  1  0  /tmp/mozilla_viktor960/4lab.c
-'9  18  0  ~/.vimrc
+'0  3  0  ~/Job/Energy/TeleBot/telegram/bot_sls/NERD_tree_1
+|4,48,3,0,1525436119,"~/Job/Energy/TeleBot/telegram/bot_sls/NERD_tree_1"
+'1  1  0  ~/.vimrc
+|4,49,1,0,1525435980,"~/.vimrc"
+'2  143  0  ~/.vimrc
+|4,50,143,0,1525435973,"~/.vimrc"
+'3  143  0  ~/.vimrc
+|4,51,143,0,1525435973,"~/.vimrc"
+'4  1  0  ~/.vimrc
+|4,52,1,0,1525435892,"~/.vimrc"
+'5  1  0  ~/.vimrc
+|4,53,1,0,1525435892,"~/.vimrc"
+'6  1  0  ~/.vimrc
+|4,54,1,0,1525435892,"~/.vimrc"
+'7  110  4  ~/.vimrc
+|4,55,110,4,1525435881,"~/.vimrc"
+'8  110  4  ~/.vimrc
+|4,56,110,4,1525435881,"~/.vimrc"
+'9  110  4  ~/.vimrc
+|4,57,110,4,1525435881,"~/.vimrc"
 
 # Список прыжков (сначала более свежие):
--'  1  0  ~/Projects/vim/.vimrc
--'  1  0  ~/.vim/spell/ru.utf-8.sug
--'  22937  0  ~/.vim/spell/ru.utf-8.sug
--'  635  0  ~/.vim/spell/ru.utf-8.spl
--'  1  0  ~/.vim/spell/ru.utf-8.spl
+-'  3  0  ~/Job/Energy/TeleBot/telegram/bot_sls/NERD_tree_1
+|4,39,3,0,1525436119,"~/Job/Energy/TeleBot/telegram/bot_sls/NERD_tree_1"
+-'  15  2  ~/Job/Energy/TeleBot/telegram/bot_sls/NERD_tree_1
+|4,39,15,2,1525436089,"~/Job/Energy/TeleBot/telegram/bot_sls/NERD_tree_1"
+-'  1  0  ~/Job/Energy/TeleBot/telegram/bot_sls/NERD_tree_1
+|4,39,1,0,1525436089,"~/Job/Energy/TeleBot/telegram/bot_sls/NERD_tree_1"
+-'  26  2  ~/Job/Energy/TeleBot/telegram/bot_sls/run.py
+|4,39,26,2,1525436089,"~/Job/Energy/TeleBot/telegram/bot_sls/run.py"
+-'  1325  0  ~/Job/Energy/TeleBot/telegram/bot_sls/run.py
+|4,39,1325,0,1525436066,"~/Job/Energy/TeleBot/telegram/bot_sls/run.py"
+-'  141  24  ~/Job/Energy/TeleBot/telegram/bot_sls/run.py
+|4,39,141,24,1525436057,"~/Job/Energy/TeleBot/telegram/bot_sls/run.py"
+-'  51  2  ~/Job/Energy/TeleBot/telegram/bot_sls/run.py
+|4,39,51,2,1525436028,"~/Job/Energy/TeleBot/telegram/bot_sls/run.py"
+-'  1005  0  ~/Job/Energy/TeleBot/telegram/bot_sls/run.py
+|4,39,1005,0,1525436012,"~/Job/Energy/TeleBot/telegram/bot_sls/run.py"
+-'  1  0  ~/Job/Energy/TeleBot/telegram/bot_sls/run.py
+|4,39,1,0,1525435985,"~/Job/Energy/TeleBot/telegram/bot_sls/run.py"
 -'  1  0  ~/.vimrc
--'  25  35  ~/.vimrc
--'  21  1  ~/.vimrc
--'  22  0  ~/.vimrc
--'  27  0  ~/.vimrc
--'  29  13  ~/.vimrc
--'  14  0  ~/.vimrc
--'  35  0  ~/.vimrc
--'  1  0  /tmp/mozilla_viktor960/4lab.c
--'  18  0  ~/.vimrc
--'  17  104  ~/.vimrc
--'  17  4  ~/Dropbox/ASCAEP/ascaep-course/overview.tex
--'  49  1  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  110  277  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  114  167  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  142  38  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  134  1  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  1  0  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  61  0  ~/Dropbox/ASCAEP/ascaep-course/src/lan.h
--'  1  0  ~/Dropbox/ASCAEP/ascaep-course/src/lan.h
--'  30  4  ~/Dropbox/ASCAEP/ascaep-course/src/lan.h
--'  89  0  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  27  1  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  323  55  ~/Dropbox/ASCAEP/ascaep-course/overview.tex
--'  1  0  ~/Dropbox/ASCAEP/ascaep-course/overview.tex
--'  314  254  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  205  444  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  213  478  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  177  0  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  174  637  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  175  0  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  131  1  ~/Dropbox/ASCAEP/ascaep-course/realization.tex
--'  211  344  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  148  455  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  216  144  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  1  0  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  1  0  ~/Dropbox/ASCAEP/ascaep-course/components.
--'  185  160  ~/Dropbox/ASCAEP/ascaep-course/overview.tex
--'  183  218  ~/Dropbox/ASCAEP/ascaep-course/overview.tex
--'  143  0  ~/Dropbox/ASCAEP/ascaep-course/overview.tex
--'  356  127  ~/Dropbox/ASCAEP/ascaep-course/overview.tex
--'  354  54  ~/Dropbox/ASCAEP/ascaep-course/overview.tex
--'  348  275  ~/Dropbox/ASCAEP/ascaep-course/overview.tex
--'  180  19  ~/Dropbox/ASCAEP/ascaep-course/overview.tex
--'  127  0  ~/Dropbox/ASCAEP/ascaep-course/overview.tex
--'  5  157  ~/Dropbox/ASCAEP/ascaep-course/overview.tex
--'  1  22  ~/Dropbox/ASCAEP/ascaep-course/okhotnikov.tex
--'  3  85  ~/Dropbox/ASCAEP/ascaep-course/.git/COMMIT_EDITMSG
--'  1  0  ~/Dropbox/ASCAEP/ascaep-course/.git/COMMIT_EDITMSG
--'  220  0  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  96  3  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  95  8  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  94  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  93  6  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  92  3  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  91  3  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  90  3  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  89  3  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  88  3  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  87  8  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  86  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  85  7  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  80  5  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  79  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  78  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  77  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  76  6  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  75  3  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  74  3  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  73  8  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  72  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  71  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  70  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  69  7  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  61  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  59  3  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  58  3  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  57  3  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  56  3  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  54  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  53  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  52  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  44  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  43  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  42  2  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  23  0  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  1  0  ~/Dropbox/ASCAEP/ascaep-course/specification.tex
--'  1  0  ~/Dropbox/ASCAEP/ascaep-course/reportrequirements.tex
--'  170  1  ~/Dropbox/ASCAEP/ascaep-course/components.tex
--'  1  0  ~/Dropbox/ASCAEP/ascaep-course/okhotnikov.aux
--'  1  0  ~/study/Python/mining.py
--'  23  0  ~/study/Python/mining.py
+|4,39,1,0,1525435980,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1525435980,"~/.vimrc"
+-'  143  0  ~/.vimrc
+|4,39,143,0,1525435973,"~/.vimrc"
+-'  143  0  ~/.vimrc
+|4,39,143,0,1525435973,"~/.vimrc"
+-'  143  0  ~/.vimrc
+|4,39,143,0,1525435973,"~/.vimrc"
+-'  143  0  ~/.vimrc
+|4,39,143,0,1525435973,"~/.vimrc"
+-'  134  0  ~/.vimrc
+|4,39,134,0,1525435943,"~/.vimrc"
+-'  133  10  ~/.vimrc
+|4,39,133,10,1525435943,"~/.vimrc"
+-'  135  0  ~/.vimrc
+|4,39,135,0,1525435943,"~/.vimrc"
+-'  134  0  ~/.vimrc
+|4,39,134,0,1525435943,"~/.vimrc"
+-'  133  10  ~/.vimrc
+|4,39,133,10,1525435943,"~/.vimrc"
+-'  135  0  ~/.vimrc
+|4,39,135,0,1525435943,"~/.vimrc"
+-'  134  0  ~/.vimrc
+|4,39,134,0,1525435943,"~/.vimrc"
+-'  133  10  ~/.vimrc
+|4,39,133,10,1525435943,"~/.vimrc"
+-'  135  0  ~/.vimrc
+|4,39,135,0,1525435943,"~/.vimrc"
+-'  134  0  ~/.vimrc
+|4,39,134,0,1525435943,"~/.vimrc"
+-'  133  10  ~/.vimrc
+|4,39,133,10,1525435943,"~/.vimrc"
+-'  135  0  ~/.vimrc
+|4,39,135,0,1525435943,"~/.vimrc"
+-'  148  0  ~/.vimrc
+|4,39,148,0,1525435942,"~/.vimrc"
+-'  147  10  ~/.vimrc
+|4,39,147,10,1525435942,"~/.vimrc"
+-'  148  0  ~/.vimrc
+|4,39,148,0,1525435942,"~/.vimrc"
+-'  147  10  ~/.vimrc
+|4,39,147,10,1525435942,"~/.vimrc"
+-'  148  0  ~/.vimrc
+|4,39,148,0,1525435942,"~/.vimrc"
+-'  147  10  ~/.vimrc
+|4,39,147,10,1525435942,"~/.vimrc"
+-'  148  0  ~/.vimrc
+|4,39,148,0,1525435942,"~/.vimrc"
+-'  147  10  ~/.vimrc
+|4,39,147,10,1525435942,"~/.vimrc"
+-'  145  29  ~/.vimrc
+|4,39,145,29,1525435936,"~/.vimrc"
+-'  145  29  ~/.vimrc
+|4,39,145,29,1525435936,"~/.vimrc"
+-'  145  29  ~/.vimrc
+|4,39,145,29,1525435936,"~/.vimrc"
+-'  145  29  ~/.vimrc
+|4,39,145,29,1525435936,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1525435927,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1525435927,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1525435892,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1525435892,"~/.vimrc"
+-'  110  4  ~/.vimrc
+|4,39,110,4,1525435881,"~/.vimrc"
+-'  110  4  ~/.vimrc
+|4,39,110,4,1525435881,"~/.vimrc"
+-'  110  4  ~/.vimrc
+|4,39,110,4,1525435881,"~/.vimrc"
+-'  110  4  ~/.vimrc
+|4,39,110,4,1525435881,"~/.vimrc"
+-'  110  4  ~/.vimrc
+|4,39,110,4,1525435881,"~/.vimrc"
+-'  110  4  ~/.vimrc
+|4,39,110,4,1525435881,"~/.vimrc"
+-'  110  4  ~/.vimrc
+|4,39,110,4,1525435881,"~/.vimrc"
+-'  110  4  ~/.vimrc
+|4,39,110,4,1525435881,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1525435878,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1525435878,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1525435878,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1525435878,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1525435878,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1525435878,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1525435878,"~/.vimrc"
+-'  2  0  ~/.vimrc
+|4,39,2,0,1525435878,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1525435874,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1525435874,"~/.vimrc"
+-'  111  0  ~/.vimrc
+|4,39,111,0,1525435867,"~/.vimrc"
+-'  111  0  ~/.vimrc
+|4,39,111,0,1525435867,"~/.vimrc"
+-'  111  0  ~/.vimrc
+|4,39,111,0,1525435867,"~/.vimrc"
+-'  111  0  ~/.vimrc
+|4,39,111,0,1525435867,"~/.vimrc"
+-'  111  0  ~/.vimrc
+|4,39,111,0,1525435867,"~/.vimrc"
+-'  111  0  ~/.vimrc
+|4,39,111,0,1525435867,"~/.vimrc"
+-'  111  0  ~/.vimrc
+|4,39,111,0,1525435867,"~/.vimrc"
+-'  111  0  ~/.vimrc
+|4,39,111,0,1525435867,"~/.vimrc"
+-'  111  0  ~/.vimrc
+|4,39,111,0,1525435867,"~/.vimrc"
+-'  111  0  ~/.vimrc
+|4,39,111,0,1525435867,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1525435773,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1525435773,"~/.vimrc"
+-'  122  4  ~/.vimrc
+|4,39,122,4,1525435772,"~/.vimrc"
+-'  120  4  ~/.vimrc
+|4,39,120,4,1525435772,"~/.vimrc"
+-'  122  4  ~/.vimrc
+|4,39,122,4,1525435772,"~/.vimrc"
+-'  120  4  ~/.vimrc
+|4,39,120,4,1525435772,"~/.vimrc"
+-'  122  4  ~/.vimrc
+|4,39,122,4,1525435772,"~/.vimrc"
+-'  120  4  ~/.vimrc
+|4,39,120,4,1525435772,"~/.vimrc"
+-'  122  4  ~/.vimrc
+|4,39,122,4,1525435772,"~/.vimrc"
+-'  120  4  ~/.vimrc
+|4,39,120,4,1525435772,"~/.vimrc"
+-'  122  4  ~/.vimrc
+|4,39,122,4,1525435772,"~/.vimrc"
+-'  120  4  ~/.vimrc
+|4,39,120,4,1525435772,"~/.vimrc"
+-'  122  4  ~/.vimrc
+|4,39,122,4,1525435772,"~/.vimrc"
+-'  120  4  ~/.vimrc
+|4,39,120,4,1525435772,"~/.vimrc"
+-'  122  4  ~/.vimrc
+|4,39,122,4,1525435772,"~/.vimrc"
+-'  120  4  ~/.vimrc
+|4,39,120,4,1525435772,"~/.vimrc"
+-'  122  4  ~/.vimrc
+|4,39,122,4,1525435772,"~/.vimrc"
+-'  120  4  ~/.vimrc
+|4,39,120,4,1525435772,"~/.vimrc"
+-'  122  4  ~/.vimrc
+|4,39,122,4,1525435772,"~/.vimrc"
+-'  120  4  ~/.vimrc
+|4,39,120,4,1525435772,"~/.vimrc"
+-'  122  4  ~/.vimrc
+|4,39,122,4,1525435772,"~/.vimrc"
+-'  120  4  ~/.vimrc
+|4,39,120,4,1525435772,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1525435420,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1525435420,"~/.vimrc"
+-'  5  0  ~/Job/Energy/TeleBot/telegram/bot_sls/run.py
+|4,39,5,0,1525435403,"~/Job/Energy/TeleBot/telegram/bot_sls/run.py"
+-'  5  0  ~/Job/Energy/TeleBot/telegram/bot_sls/run.py
+|4,39,5,0,1525435403,"~/Job/Energy/TeleBot/telegram/bot_sls/run.py"
+-'  5  0  ~/Job/Energy/TeleBot/telegram/bot_sls/run.py
+|4,39,5,0,1525435403,"~/Job/Energy/TeleBot/telegram/bot_sls/run.py"
+-'  5  0  ~/Job/Energy/TeleBot/telegram/bot_sls/run.py
+|4,39,5,0,1525435403,"~/Job/Energy/TeleBot/telegram/bot_sls/run.py"
+-'  5  0  ~/Job/Energy/TeleBot/telegram/bot_sls/run.py
+|4,39,5,0,1525435403,"~/Job/Energy/TeleBot/telegram/bot_sls/run.py"
 
 # История местных отметок (от более свежих к старым):
 
-> ~/Projects/vim/.vimrc
-	"	1	0
+> ~/Job/Energy/TeleBot/telegram/bot_sls/run.py
+	*	1525436118	0
+	"	22	2
+	.	1006	0
+	+	1006	0
 
-> ~/.vim/spell/ru.utf-8.sug
-	"	1	0
+> ~/Job/Energy/TeleBot/telegram/bot_sls/NERD_tree_1
+	*	1525436117	0
+	"	3	0
+	.	1	0
+	+	1	0
 
-> ~/.vim/spell/ru.utf-8.spl
-	"	635	0
+> ~/Job/Energy/TeleBot/telegram/bot_sls/__Tagbar__.1
+	*	1525436087	0
+	"	70	4
+	.	89	0
+	+	89	0
 
 > ~/.vimrc
+	*	1525435980	0
 	"	1	0
-	^	25	36
-	.	25	35
-	+	17	0
-	+	17	104
-	+	23	38
-	+	20	0
-	+	17	104
-	+	17	104
-	+	17	104
-	+	16	68
-	+	33	73
-	+	33	0
-	+	27	0
-	+	28	0
-	+	14	0
-	+	29	0
-	+	29	13
-	+	29	0
-	+	29	0
-	+	21	0
-	+	27	79
-	+	27	0
-	+	21	0
-	+	24	0
-	+	25	35
-
-> /tmp/mozilla_viktor960/4lab.c
-	"	1	0
-
-> ~/Dropbox/ASCAEP/ascaep-course/realization.tex
-	"	49	1
-	^	48	44
-	.	48	42
-	+	205	75
-	+	205	526
-	+	207	36
-	+	208	0
-	+	209	0
-	+	211	0
-	+	208	52
-	+	209	48
-	+	210	34
-	+	213	332
-	+	213	1266
-	+	213	1104
-	+	213	1384
-	+	263	410
-	+	263	410
-	+	263	410
-	+	263	437
-	+	263	496
-	+	213	1375
-	+	263	501
-	+	263	410
-	+	213	1354
-	+	214	0
-	+	247	13
-	+	246	0
-	+	213	1356
-	+	213	1609
-	+	251	4
-	+	260	14
-	+	250	15
-	+	261	13
-	+	263	261
-	+	263	408
-	+	258	24
-	+	263	410
-	+	344	0
-	+	263	486
-	+	283	0
-	+	265	15
-	+	282	3
-	+	284	2
-	+	264	0
-	+	289	13
-	+	287	0
-	+	288	0
-	+	289	0
-	+	290	0
-	+	285	0
-	+	344	13
-	+	293	16
-	+	309	13
-	+	310	0
-	+	311	0
-	+	292	0
-	+	312	378
-	+	213	310
-	+	312	34
-	+	291	26
-	+	314	257
-	+	314	214
-	+	314	404
-	+	328	33
-	+	316	15
-	+	315	0
-	+	329	13
-	+	333	16
-	+	340	13
-	+	334	1
-	+	339	34
-	+	340	0
-	+	332	0
-	+	344	0
-	+	341	0
-	+	343	0
-	+	344	0
-	+	342	208
-	+	348	0
-	+	347	114
-	+	348	0
-	+	347	0
-	+	353	111
-	+	347	66
-	+	348	0
-	+	346	0
-	+	345	83
-	+	353	754
-	+	353	752
-	+	354	0
-	+	22	349
-	+	174	660
-	+	174	0
-	+	186	298
-	+	205	460
-	+	213	482
-	+	205	0
-	+	314	254
-	+	110	277
-	+	46	41
-	+	47	42
-	+	48	42
-
-> ~/Dropbox/ASCAEP/ascaep-course/overview.tex
-	"	17	4
-	^	17	6
-	.	17	4
-	+	291	17
-	+	291	0
-	+	291	0
-	+	291	93
-	+	291	0
-	+	291	27
-	+	291	0
-	+	292	62
-	+	310	13
-	+	311	0
-	+	310	29
-	+	310	0
-	+	310	104
-	+	310	235
-	+	310	61
-	+	310	16
-	+	310	245
-	+	310	8
-	+	310	0
-	+	310	0
-	+	310	76
-	+	310	197
-	+	310	0
-	+	310	8
-	+	310	249
-	+	310	143
-	+	310	287
-	+	310	96
-	+	310	0
-	+	291	15
-	+	310	0
-	+	310	194
-	+	310	0
-	+	310	0
-	+	310	175
-	+	310	0
-	+	310	24
-	+	310	26
-	+	310	183
-	+	310	0
-	+	310	0
-	+	293	0
-	+	306	188
-	+	294	61
-	+	307	0
-	+	265	1015
-	+	273	31
-	+	292	0
-	+	266	0
-	+	273	0
-	+	291	0
-	+	273	530
-	+	291	0
-	+	273	244
-	+	291	88
-	+	291	51
-	+	291	32
-	+	291	27
-	+	273	921
-	+	282	1256
-	+	282	433
-	+	282	642
-	+	291	0
-	+	292	0
-	+	274	0
-	+	282	0
-	+	290	0
-	+	287	0
-	+	286	10
-	+	285	326
-	+	286	52
-	+	285	327
-	+	286	689
-	+	285	10
-	+	286	10
-	+	289	225
-	+	289	62
-	+	289	215
-	+	257	7
-	+	360	0
-	+	5	157
-	+	26	175
-	+	26	420
-	+	180	19
-	+	342	167
-	+	348	55
-	+	348	275
-	+	354	54
-	+	356	127
-	+	182	6
-	+	183	6
-	+	184	6
-	+	185	6
-	+	182	78
-	+	183	0
-	+	183	222
-	+	184	116
-	+	185	160
-	+	323	55
-	+	17	4
-
-> ~/Dropbox/ASCAEP/ascaep-course/src/lan.h
-	"	61	0
-
-> ~/Dropbox/ASCAEP/ascaep-course/components.tex
-	"	211	344
-	^	218	333
-	.	211	342
-	+	148	622
-	+	165	249
-	+	176	0
-	+	175	95
-	+	126	353
-	+	127	0
-	+	183	0
-	+	128	0
-	+	128	0
-	+	146	0
-	+	128	0
-	+	146	0
-	+	130	52
-	+	131	121
-	+	130	27
-	+	131	76
-	+	134	215
-	+	135	0
-	+	144	0
-	+	136	22
-	+	140	13
-	+	138	210
-	+	140	0
-	+	139	0
-	+	140	0
-	+	139	0
-	+	138	209
-	+	139	324
-	+	140	0
-	+	141	19
-	+	144	0
-	+	141	20
-	+	142	296
-	+	142	146
-	+	142	0
-	+	142	0
-	+	142	0
-	+	142	306
-	+	141	20
-	+	141	421
-	+	142	193
-	+	143	0
-	+	142	193
-	+	142	7
-	+	143	37
-	+	141	20
-	+	142	0
-	+	141	20
-	+	141	20
-	+	143	84
-	+	20	904
-	+	20	1190
-	+	20	1261
-	+	20	0
-	+	20	0
-	+	20	1296
-	+	20	1138
-	+	104	32
-	+	153	84
-	+	192	126
-	+	194	0
-	+	197	155
-	+	196	27
-	+	197	95
-	+	196	27
-	+	194	16
-	+	197	156
-	+	200	4
-	+	202	0
+	^	144	1
+	.	144	0
+	+	122	69
+	+	121	4
+	+	122	4
+	+	110	62
+	+	111	0
+	+	110	4
+	+	145	0
+	+	133	10
 	+	148	0
-	+	202	96
-	+	203	0
-	+	206	53
-	+	207	65
-	+	202	95
-	+	206	27
-	+	214	0
-	+	211	602
-	+	212	426
-	+	213	99
-	+	212	425
-	+	211	600
-	+	213	344
-	+	216	147
-	+	218	643
-	+	218	0
-	+	219	0
-	+	223	77
-	+	222	28
-	+	218	751
-	+	218	0
-	+	226	0
-	+	226	692
-	+	228	0
-	+	230	48
-	+	231	78
-	+	226	691
-	+	231	79
-	+	218	331
-	+	211	342
+	+	135	0
+	+	134	0
+	+	144	0
 
-> ~/Dropbox/ASCAEP/ascaep-course/components.
+> ~/Job/Energy/TeleBot/telegram/bot_sls/table_parcer.py
+	*	1525434343	0
+	"	136	4
+	^	7	119
+
+> ~/Job/Energy/TeleBot/telegram/bot_sls/webhook.py
+	*	1525434211	0
 	"	1	0
 
-> ~/Dropbox/ASCAEP/ascaep-course/okhotnikov.tex
-	"	1	22
-	^	226	67
-	.	1	22
-	+	36	0
-	+	37	0
-	+	61	0
-	+	224	0
-	+	226	90
-	+	19	0
-	+	21	0
-	+	20	0
-	+	20	0
-	+	35	0
-	+	16	0
-	+	15	0
-	+	1	19
-	+	19	0
-	+	42	0
-	+	43	0
-	+	44	0
-	+	45	0
-	+	46	0
-	+	47	0
-	+	48	0
-	+	49	0
-	+	50	0
-	+	51	0
-	+	52	0
-	+	53	0
-	+	54	0
-	+	55	0
-	+	56	0
-	+	57	0
-	+	58	0
-	+	59	0
-	+	62	0
-	+	226	0
-	+	21	0
-	+	19	0
-	+	21	0
-	+	42	0
-	+	43	0
-	+	44	0
-	+	45	0
-	+	46	0
-	+	47	0
-	+	48	0
-	+	49	0
-	+	50	0
-	+	51	0
-	+	52	0
-	+	53	0
-	+	54	0
-	+	55	0
-	+	56	0
-	+	57	0
-	+	58	0
-	+	59	0
-	+	61	0
-	+	62	0
-	+	226	71
-	+	228	0
-	+	230	0
-	+	230	0
-	+	228	0
-	+	176	0
-	+	227	0
-	+	214	0
-	+	214	0
-	+	201	0
-	+	200	0
-	+	201	260
-	+	211	214
-	+	203	177
-	+	165	0
-	+	166	0
-	+	158	0
-	+	162	400
-	+	164	278
-	+	164	280
-	+	164	112
-	+	164	473
-	+	213	414
-	+	213	0
-	+	213	316
-	+	213	341
-	+	18	0
-	+	19	23
-	+	226	87
-	+	226	72
-	+	225	104
-	+	226	0
-	+	226	89
-	+	191	0
-	+	190	0
-	+	191	0
-	+	193	0
-	+	191	0
-	+	192	0
-	+	193	337
-	+	1	22
-	+	226	66
-	+	1	22
-
-> ~/Dropbox/ASCAEP/ascaep-course/.git/COMMIT_EDITMSG
-	"	3	85
-	^	3	86
-	.	3	85
-	+	21	41
-	+	15	61
-	+	16	73
-	+	17	72
-	+	18	45
-	+	11	94
-	+	9	30
-	+	1	36
-	+	6	8
-	+	3	85
-
-> ~/Dropbox/ASCAEP/ascaep-course/src/lan.c
-	"	13	0
-
-> ~/Dropbox/ASCAEP/ascaep-course/reportrequirements.tex
+> ~/Job/Energy/TeleBot/telegram/bot_sls/help/table_example.csv
+	*	1525434143	0
 	"	1	0
-	^	69	0
-	.	69	0
+
+> ~/Job/Energy/TeleBot/telegram/bot_sls/configs/bot_sls.default.ini
+	*	1525434096	0
+	"	3	22
+	^	3	14
+	.	3	22
+	+	4	0
+	+	2	16
+	+	3	22
+
+> ~/Job/Energy/TeleBot/telegram/bot_sls/astro/sun.py
+	*	1525433964	0
+	"	82	8
+
+> ~/Job/Energy/TeleBot/telegram/bot_sls/astro/cities.py
+	*	1525433934	0
+	"	12	0
+
+> ~/Job/Energy/TeleBot/telegram/bot_sls/configloader.py
+	*	1525433928	0
+	"	210	4
+
+> ~/Job/Energy/TeleBot/telegram/bot_sls/obj.py
+	*	1525433917	0
+	"	1	0
+
+> ~/Job/Energy/TeleBot/utgard/bot_sls_ver2/r
+	*	1525433542	0
+	"	1	0
+
+> ~/Job/Energy/TeleBot/mountUtgard.sh
+	*	1525433187	0
+	"	1	0
+	^	3	18
+	.	9	33
+	+	3	16
+	+	9	39
+	+	3	17
+	+	9	33
+
+> ~/Job/Energy/TeleBot/mountIsbergCom.sh
+	*	1525432910	0
+	"	8	0
+
+> ~/Job/Energy/TeleBot/viber/bot_test/NERD_tree_1
+	*	1525430167	0
+	"	4	0
+	.	1	0
 	+	1	0
-	+	575	0
-	+	1	0
-	+	317	0
-	+	575	0
-	+	317	0
-	+	1	0
-	+	574	0
-	+	61	94
-	+	66	0
-	+	67	0
-	+	67	0
-	+	68	0
-	+	69	0
 
-> ~/Dropbox/ASCAEP/ascaep-course/src/usart.c
-	"	29	0
-
-> ~/Dropbox/ASCAEP/ascaep-course/src/usart.h
-	"	1	0
-	.	34	0
-	+	17	59
-	+	19	0
-	+	20	0
-	+	19	0
-	+	21	58
-	+	23	60
-	+	25	0
-	+	25	74
-	+	27	114
-	+	29	101
-	+	31	104
-	+	34	0
-
-> ~/Dropbox/ASCAEP/ascaep-course/src/main.c
-	"	54	33
-	^	266	64
-	.	54	33
-	+	1	0
-	+	295	0
-	+	266	0
-	+	267	0
-	+	54	33
-
-> ~/Dropbox/ASCAEP/ascaep-course/src/dump.pcap
+> ~/Документы/private.zip.gpg
+	*	1525376196	0
 	"	1	0
 
-> ~/Dropbox/ASCAEP/ascaep-course/specification.tex
-	"	1	0
-	.	3	0
-	+	1	0
-	+	1	0
-	+	3	0
+> ~/Job/Energy/TeleBot/viber/bot_test/run.py
+	*	1525353478	0
+	"	54	4
+	^	55	35
+	.	55	34
+	+	55	69
+	+	26	25
+	+	54	3
+	+	55	48
+	+	16	19
+	+	17	70
+	+	18	65
+	+	55	34
 
-> ~/Dropbox/ASCAEP/ascaep-course/okhotnikov.aux
-	"	1	0
-
-> ~/study/Python/mining.py
-	"	1	0
-	^	22	1
-	.	22	0
-	+	23	52
-	+	19	117
-	+	8	9
-	+	21	63
-	+	19	82
-	+	19	82
-	+	19	82
-	+	19	82
-	+	19	82
-	+	19	86
-	+	21	37
-	+	20	15
-	+	22	15
-	+	21	0
-	+	22	0
-
-> ~/study/Python/vitamins.json
-	"	6631	8
-
-> ~/Dropbox/ASCAEP/Клиент/Okhotnikov/enc28j60.c
-	"	254	16
-
-> ~/Dropbox/ASCAEP/Клиент/Okhotnikov/enc28j60.h
-	"	17	0
-
-> ~/Dropbox/ASCAEP/Клиент/Okhotnikov/lan.h
-	"	1	0
-	.	34	4
-	+	1	0
-	+	13	18
-	+	14	18
-	+	30	4
-	+	42	21
-	+	26	18
-	+	27	18
-	+	29	18
-	+	30	4
-	+	31	18
-	+	34	4
-
-> ~/Dropbox/ASCAEP/Клиент/Okhotnikov/lan.c
-	"	23	17
-
-> ~/Dropbox/ASCAEP/ascaep-course/src/enc28j60.c
-	"	268	0
-
-> ~/Dropbox/ASCAEP/ascaep-course/src/enc28j60.h
-	"	241	0
-
-> ~/Dropbox/ASCAEP/Клиент/Okhotnikov/ClientEth.c
-	"	3	3
-	.	3	3
-	+	299	0
-	+	3	3
-
-> ~/Dropbox/ASCAEP/ascaep-course/Makefile
-	"	1	0
-	^	14	45
-	.	132	25
-	+	1	15
-	+	3	25
-	+	11	8
-	+	14	44
-	+	132	25
-
-> ~/Dropbox/ASCAEP/ascaep-course/src/ClientEth.c
-	"	61	0
-	.	301	0
-	+	301	0
-
-> ~/study/bash/iradate.sh
-	"	32	16
-	^	32	17
-	.	32	16
-	+	31	10
-	+	36	0
-	+	36	0
-	+	36	5
-	+	36	2
-	+	36	34
-	+	37	19
-	+	31	0
-	+	32	0
-	+	36	34
-	+	35	36
-	+	36	0
-	+	35	38
-	+	36	37
-	+	36	34
-	+	37	23
-	+	36	0
-	+	36	0
-	+	35	41
-	+	36	5
-	+	36	0
-	+	36	48
-	+	37	60
-	+	37	6
-	+	36	52
-	+	32	13
-	+	35	0
-	+	35	0
-	+	35	40
-	+	35	5
-	+	36	3
-	+	35	21
-	+	35	5
-	+	36	5
-	+	35	9
-	+	36	0
-	+	35	0
-	+	35	2
-	+	35	26
-	+	35	0
-	+	32	13
-	+	37	3
-	+	41	0
-	+	39	17
-	+	32	18
-	+	39	10
-	+	37	4
-	+	39	30
-	+	37	2
-	+	39	19
-	+	39	35
-	+	32	19
-	+	33	0
-	+	39	29
-	+	41	0
-	+	39	12
-	+	40	0
-	+	9	0
-	+	5	39
-	+	6	79
-	+	8	17
-	+	6	80
-	+	25	0
-	+	26	14
-	+	30	0
-	+	28	0
-	+	29	1
-	+	30	0
-	+	26	13
-	+	11	39
-	+	15	0
-	+	3	83
-	+	15	30
-	+	35	2
-	+	35	23
-	+	15	59
-	+	14	0
-	+	39	22
-	+	39	14
-	+	39	0
-	+	39	0
-	+	37	20
-	+	33	0
-	+	35	27
-	+	32	19
-	+	7	103
-	+	13	39
-	+	32	0
-	+	31	0
-	+	24	0
-	+	32	0
-	+	36	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	22	0
-	+	23	0
-	+	24	0
-	+	34	19
-	+	32	16
-
-> ~/study/C/compile/calls.c
-	"	75	1
-	.	75	0
-	+	61	0
-	+	75	0
-
-> ~/Dropbox/Job/iiwkpsd.abc.gpg
+> ~/Job/Energy/TeleBot/viber/bot_test/r
+	*	1525353474	0
 	"	1	0
 
-> ~/iiwkpsd.abc
-	"	1	0
-	^	1	15
-	.	1	7
-	+	1	7
-
-> ~/iiwkpsd.abc.gpg
-	"	3	28
-
-> ~/Dropbox/Job/iiwkpsd.abc
-	"	1	0
-	^	1	6
-	.	1	5
-	+	1	5
-
-> ~/Dropbox/Homework/Networks/Pcap/doc/listing.tex
-	"	46	0
-	^	53	0
-	.	45	18
-	+	102	149
-	+	103	109
-	+	104	151
-	+	58	203
-	+	93	27
-	+	71	0
-	+	57	15
-	+	94	13
-	+	99	28
-	+	52	0
-	+	51	0
-	+	52	28
-	+	56	11
-	+	95	0
-	+	55	88
-	+	55	6
-	+	55	96
-	+	54	1
-	+	56	0
-	+	54	7
-	+	97	7
-	+	52	42
-	+	99	42
-	+	54	0
-	+	53	0
-	+	54	0
-	+	45	18
-
-> ~/Dropbox/Homework/Networks/Pcap/doc/pcapcapt.c
+> ~/Job/Energy/TeleBot/viber/bot_test/requirements.txt
+	*	1525349678	0
 	"	1	0
 
-> ~/Projects/pidgin-gpg-0.9/scr.sh
+> ~/Job/Energy/TeleBot/telegram/bot_revision/requirements.txt
+	*	1525349533	0
 	"	2	0
-	^	2	4
-	.	2	0
-	+	4	36
-	+	2	0
 
-> ~/Projects/pidgin-gpg-0.9/keybl.pub
+> /etc/resolv.conf
+	*	1525341554	0
 	"	1	0
-
-> ~/Projects/pidgin-gpg-0.9/prv_keybl.prv
-	"	1	0
-
-> ~/Projects/pidgin-gpg-0.9/config.log
-	"	531	0
-
-> ~/Projects/pidgin-gpg-0.9/src/pidgin-gpg.c
-	"	1002	1
-
-> ~/Projects/pidgin-gpg-0.9/configure
-	"	13115	1
-
-> ~/Projects/pidgin-gpg-0.9/README
-	"	1	0
-
-> ~/Projects/pidgin-gpg-0.9/Makefile.
-	"	1	0
-
-> ~/.gnupg/some.pub
-	"	43	33
-	^	43	34
-	.	43	0
-	+	43	0
-
-> ~/Dropbox/Homework/Networks/Pcap/doc/valueif.h
-	"	1	0
-
-> ~/Dropbox/ASCAEP/ascaep-course/overview.aux
-	"	1	0
-
-> ~/Dropbox/ASCAEP/ascaep-course/.gitignore
-	"	1	0
-	^	6	5
-	.	6	4
-	+	3	4
-	+	4	4
-	+	1	0
-	+	3	0
-	+	2	4
-	+	5	4
-	+	6	4
-
-> ~/Dropbox/ASCAEP/ascaep-course/src/maincli.c
-	"	1	0
-
-> ~/Projects/listings/temp.c
-	"	1	0
-
-> ~/Projects/listings/README
-	"	1	0
-
-> ~/Projects/listings/Makefile
-	"	208	0
-
-> ~/Dropbox/ASCAEP/ascaep-course/src/main
-	"	31	2
-
-> ~/Dropbox/ASCAEP/ascaep-course/kalinina.tex
-	"	282	0
-	^	333	14
-	.	333	13
-	+	456	51
-	+	457	5
-	+	457	6
-	+	456	39
-	+	456	67
-	+	456	88
-	+	457	0
-	+	456	104
-	+	457	0
-	+	456	110
-	+	456	38
-	+	456	66
-	+	456	103
-	+	433	77
-	+	339	39
-	+	287	41
-	+	226	41
-	+	252	38
-	+	226	38
-	+	287	38
-	+	339	38
-	+	433	36
-	+	15	21
-	+	286	15
-	+	287	22
-	+	286	21
-	+	287	0
-	+	333	13
-
-> ~/Dropbox/ASCAEP/ascaep-course/okhotnikov.t
-	"	1	0
-
-> ~/Dropbox/ASCAEP/ascaep-course/reportrequirements.pdf
-	"	187	0
-
-> ~/Dropbox/ASCAEP/ascaep-course/G7-32.sty
-	"	108	1
-	^	112	2
-	.	112	2
-	+	105	24
-	+	90	61
-	+	86	54
-	+	82	0
-	+	83	0
-	+	96	0
-	+	96	111
-	+	99	18
-	+	102	0
-	+	102	141
-	+	108	71
-	+	112	0
-	+	112	173
-	+	112	0
-	+	105	24
-	+	108	24
-	+	112	16
-	+	102	25
-	+	99	25
-	+	96	25
-	+	90	16
-	+	86	25
-	+	82	11
-	+	86	11
-	+	90	2
-	+	96	11
-	+	99	11
-	+	102	11
-	+	105	10
-	+	108	10
-	+	112	2
-
-> ~/Dropbox/Homework/Networks/course_wifi/tohelp/ira/IvanovaII_parser.py
-	"	31	0
-	^	191	17
-	.	193	0
-	+	62	0
-	+	62	0
-	+	133	16
-	+	140	19
-	+	153	46
-	+	140	42
-	+	63	38
-	+	233	0
-	+	232	0
-	+	19	0
-	+	204	0
-	+	195	0
-	+	204	0
-	+	25	0
-	+	25	14
-	+	25	16
-	+	212	12
-	+	25	0
-	+	155	0
-	+	156	0
-	+	157	0
-	+	156	0
-	+	62	0
-	+	59	0
-	+	112	0
-	+	102	0
-	+	102	0
-	+	70	0
-	+	77	27
-	+	112	24
-	+	11	8
-	+	112	24
-	+	112	41
-	+	112	81
-	+	112	4
-	+	112	4
-	+	112	32
-	+	112	83
-	+	112	0
-	+	164	0
-	+	164	0
-	+	102	38
-	+	96	78
-	+	94	0
-	+	105	46
-	+	164	4
-	+	165	4
-	+	184	0
-	+	180	21
-	+	177	64
-	+	182	108
-	+	182	36
-	+	182	0
-	+	182	57
-	+	182	7
-	+	182	0
-	+	182	13
-	+	182	11
-	+	184	0
-	+	182	20
-	+	185	19
-	+	185	14
-	+	251	0
-	+	251	0
-	+	192	66
-	+	182	0
-	+	182	0
-	+	184	0
-	+	181	0
-	+	183	0
-	+	185	0
-	+	243	0
-	+	243	19
-	+	244	45
-	+	77	24
-	+	78	8
-	+	80	0
-	+	79	6
-	+	87	23
-	+	89	0
-	+	98	0
-	+	101	0
-	+	102	0
-	+	101	0
-	+	107	0
-	+	106	0
-	+	107	0
-	+	112	0
-	+	111	0
-	+	111	0
-	+	110	0
-	+	111	0
-	+	111	0
-	+	64	19
-	+	170	0
-	+	177	24
-	+	191	16
-	+	192	48
-	+	192	0
-	+	193	0
-
-> ~/Документы/g7-80/G7-32.sty
-	"	105	50
-	.	105	49
-	+	105	49
-
-> ~/Документы/g7-80/G7-32.cls
-	"	1	0
-
-> ~/Документы/g7-80/G2-105.sty
-	"	181	0
-
-> ~/Документы/g7-80/okhotnikov.tex
-	"	229	0
-
-> ~/study/latex/gost/G7-32_example.tex
-	"	90	0
-
-> ~/study/latex/gost/ex.tex
-	"	1	0
-
-> ~/study/latex/gost/G7-32_NIRreport_example.tex
-	"	1	0
-
-> ~/study/latex/gost/G7-32_AnnotationNIRreport_example.tex
-	"	104	0
-
-> ~/study/latex/gost/README
-	"	1	0
-
-> ~/study/latex-g7-32-master/tex/00-title.tex
-	"	6	47
-	^	7	68
+	^	6	20
 	.	6	0
-	+	1	0
-	+	3	0
 	+	6	0
-	+	9	0
-	+	16	9
-	+	15	0
-	+	21	1
-	+	22	0
-	+	7	0
+
+> /etc/resolv
+	*	1525198615	0
+	"	1	0
+
+> /etc/host.conf
+	*	1525198604	0
+	"	1	0
+
+> /etc/hosts
+	*	1525198568	0
+	"	6	0
+
+> ~/Dropbox/Programs/study/Prolog/lab7/lab7.pl
+	*	1524921699	0
+	"	18	0
+
+> ~/Dropbox/Programs/study/Prolog/lab7/my_out.db
+	*	1524921642	0
+	"	185	0
+
+> ~/Dropbox/Programs/study/Prolog/lab7/labexp.pl
+	*	1524921393	0
+	"	2	0
+
+> ~/Dropbox/Programs/study/Prolog/lab6/lab6.pl
+	*	1524920339	0
+	"	32	32
+	^	94	57
+	.	94	111
+	+	32	74
+	+	26	8
+	+	27	0
+	+	28	27
+	+	26	31
+	+	28	30
+	+	27	13
+	+	29	24
+	+	32	11
+	+	29	54
+	+	32	63
+	+	26	20
+	+	28	13
+	+	27	13
+	+	28	14
 	+	29	0
-	+	28	0
-	+	6	48
-	+	7	67
+	+	28	26
+	+	29	0
+	+	28	26
+	+	29	18
+	+	77	0
+	+	83	22
+	+	27	2
+	+	83	19
+	+	92	0
+	+	90	0
+	+	93	16
+	+	90	0
+	+	89	0
+	+	87	1
+	+	86	0
+	+	87	15
+	+	25	0
+	+	27	2
+	+	85	25
+	+	83	0
+	+	87	16
+	+	88	29
+	+	29	0
+	+	39	0
+	+	32	52
 	+	6	47
-	+	7	66
-	+	6	0
-	+	6	0
-
-> ~/study/latex-g7-32-master/tex/00-title
-	"	1	0
-
-> ~/study/latex-g7-32-master/tex/rpz.tex
-	"	1	0
-	^	13	1
-	.	13	0
-	+	1	37
-	+	2	0
-	+	57	0
-	+	58	0
-	+	43	0
-	+	42	0
-	+	44	0
-	+	45	0
-	+	46	0
-	+	35	0
-	+	58	0
+	+	87	33
+	+	93	27
+	+	6	40
 	+	59	0
 	+	60	0
-	+	61	0
-	+	62	0
-	+	63	0
-	+	48	0
-	+	54	0
-	+	68	0
-	+	70	0
+	+	59	31
+	+	59	0
+	+	93	35
+	+	6	35
+	+	59	37
+	+	59	13
+	+	93	126
+	+	60	0
 	+	69	0
-	+	70	0
-	+	72	0
-	+	74	0
-	+	75	0
-	+	11	0
-	+	13	0
+	+	71	20
+	+	32	31
+	+	94	111
 
-> ~/study/latex-g7-32-master/tex/preamble.inc.tex
-	"	43	0
+> ~/Dropbox/Programs/study/Prolog/lab6/NERD_tree_1
+	*	1524905948	0
+	"	5	0
+	.	1	0
+	+	1	0
 
-> ~/study/latex-g7-32-master/tex/macros.inc.tex
+> ~/Job/Energy/TeleBot/viber/bot_test/.git/COMMIT_EDITMSG
+	*	1524841221	0
+	"	1	0
+	^	1	57
+	.	1	55
+	+	1	55
+
+> ~/Job/Energy/TeleBot/viber/bot_test/start.sh
+	*	1524841133	0
+	"	2	55
+	^	2	15
+	.	2	14
+	+	2	14
+
+> ~/Job/Energy/TeleBot/viber/bot_test/robot.sh
+	*	1524841100	0
 	"	1	0
 
-> ~/study/latex-g7-32-master/Makefile
-	"	52	1
-	^	3	1
-	.	4	0
-	+	3	0
-	+	4	0
-
-> ~/study/latex-g7-32-master/tex/listings.inc.tex
-	"	58	0
-
-> ~/study/latex-g7-32-master/tex/rpz.t
+> ~/.getssl/utgard999.ru/utgard999.ru.key
+	*	1524839031	0
 	"	1	0
 
-> ~/study/latex-g7-32-master/src/test.c
-	"	1	0
-	.	2	0
-	+	2	0
-	+	2	0
-
-> ~/study/latex-g7-32-master/README.md
-	"	28	0
-
-> ~/study/latex-g7-32-master/tex/30-design.tex
+> ~/.getssl/utgard999.ru/utgard999.ru.csr
+	*	1524839026	0
 	"	1	0
 
-> ~/study/latex-g7-32-master/tex/91-appendix2.tex
+> ~/.getssl/utgard999.ru/getssl.cfg
+	*	1524838949	0
+	"	24	59
+	^	24	60
+	.	24	59
+	+	10	0
+	+	6	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	35	77
+	+	34	78
+	+	47	0
+	+	36	77
+	+	30	19
+	+	24	59
+
+> ~/.getssl/getssl.cfg
+	*	1524838557	0
+	"	32	0
+	^	32	23
+	.	32	22
+	+	32	22
+
+> ~/.getssl/viberbot/getssl.cfg
+	*	1524838511	0
+	"	15	0
+	^	30	20
+	.	30	19
+	+	10	0
+	+	6	0
+	+	34	0
+	+	35	73
+	+	34	74
+	+	24	0
+	+	25	0
+	+	26	0
+	+	24	0
+	+	25	0
+	+	24	0
+	+	25	0
+	+	24	46
+	+	47	0
+	+	48	0
+	+	30	0
+	+	36	0
+	+	30	19
+
+> ~/Programs/GetSSL/getssl
+	*	1524837675	0
+	"	2033	0
+
+> ~/Job/Energy/TeleBot/viber/bot_test/un
+	*	1524837156	0
 	"	1	0
 
-> ~/study/latex-g7-32-master/tex/90-appendix1.aux
+> ~/Job/Energy/TeleBot/telegram/bot_pcs/un
+	*	1524835418	0
 	"	1	0
 
-> ~/study/latex-g7-32-master/tex/90-appendix1.tex
+> ~/Job/Energy/TeleBot/telegram/bot_pcs/pcs_db.py
+	*	1524835362	0
+	"	353	0
+	.	401	0
+	+	401	0
+
+> ~/Job/Energy/TeleBot/telegram/bot_pcs/run.py
+	*	1524835323	0
+	"	650	23
+
+> /var/log/kern.log
+	*	1524832984	0
 	"	1	0
 
-> ~/study/latex-g7-32-master/tex/90-appendix1.
+> ~/Job/Energy/TeleBot/whatsappenv/whatsapp-framework/run.py
+	*	1524740646	0
+	"	28	34
+	^	12	1
+	.	12	0
+	+	12	0
+
+> ~/Job/Energy/TeleBot/whatsappenv/whatsapp-framework/config.py
+	*	1524740491	0
+	"	1	0
+	^	9	37
+	.	9	36
+	+	2	23
+	+	3	43
+	+	10	0
+	+	3	43
+	+	2	23
+	+	9	36
+
+> ~/Job/Energy/TeleBot/whatsappenv/whatsapp-framework/start.sh
+	*	1524740448	0
 	"	1	0
 
-> ~/study/latex-g7-32-master/tex/rpz.log
-	"	1276	0
+> ~/Job/Energy/TeleBot/whatsappenv/whatsapp-framework/setup.sh
+	*	1524740423	0
+	"	1	0
 
-> ~/study/latex-g7-32-master/tex/10-defines.tex
+> ~/Job/Energy/TeleBot/whatsappenv/whatsapp-framework/modules/__init__.py
+	*	1524739442	0
+	"	7	0
+	^	7	1
+
+> ~/Job/Energy/TeleBot/whatsappenv/whatsapp-framework/app/models/message.py
+	*	1524654154	0
+	"	75	12
+
+> ~/Job/Energy/TeleBot/whatsappenv/whatsapp-framework/README.md
+	*	1524654125	0
+	"	1	0
+
+> ~/Job/Energy/TeleBot/whatsappenv/whatsapp-framework/app/__init__.py
+	*	1524654095	0
+	"	1	0
+
+> ~/Job/Energy/TeleBot/whatsappenv/whatsapp-framework/modules/hihelp/__init__.py
+	*	1524653713	0
+	"	1	0
+
+> ~/Job/Energy/TeleBot/whatsappenv/whatsapp-framework/modules/hihelp/hihelp.py
+	*	1524653698	0
+	"	10	4
+
+> /etc/resolvconf/resolv.conf.d/head
+	*	1524436983	0
 	"	5	0
 
-> ~/study/latex-g7-32-master/tex/preamble.inc.
+> /etc/resolvconf/resolv.conf.d/base
+	*	1524436978	0
 	"	1	0
 
-> ~/study/latex-g7-32-master/tex/G7-32.sty
-	"	59	12
+> ~/Programs/curl-7.59.0/NERD_tree_1
+	*	1524436962	0
+	"	5	0
+	.	1	0
+	+	1	0
 
-> ~/study/latex-g7-32-master/tex/G7-32.cls
-	"	61	0
+> /etc/nanorc
+	*	1524436644	0
+	"	1	0
 
-> ~/study/latex-g7-32-master/tex/okhotnikov.tex
-	"	11	0
-	^	10	1
-	.	11	0
-	+	11	0
+> ~/Programs/curl-7.59.0/configure
+	*	1524435615	0
+	"	3360	41
+	.	1	0
+	+	1	0
+
+> ~/Programs/curl-7.59.0/README
+	*	1524435574	0
+	"	17	0
+
+> ~/Programs/curl-7.59.0/RE
+	*	1524435566	0
+	"	1	0
+
+> /usr/share/dnscrypt-proxy/dnscrypt-resolvers.csv
+	*	1524419359	0
+	"	30	0
+
+> ~/NERD_tree_1
+	*	1524414717	0
+	"	6	0
+	.	1	0
+	+	1	0
+
+> /etc/dnsmasq.d/network-manager
+	*	1524409585	0
+	"	1	0
+
+> ~/Job/Energy/TeleBot/bot_revision/NERD_tree_1
+	*	1524409579	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.proxychains/proxychains.conf
+	*	1524356389	0
+	"	116	19
+	.	117	0
+	+	121	0
+	+	119	0
+	+	125	0
+	+	120	0
+	+	118	0
+	+	32	0
+	+	108	0
+	+	118	0
+	+	119	0
+	+	120	0
+	+	121	0
+	+	122	0
+	+	123	0
+	+	124	0
+	+	118	0
+	+	86	0
+	+	91	0
+	+	18	0
 	+	10	0
-	+	11	0
+	+	118	0
+	+	10	0
+	+	18	0
+	+	118	0
+	+	119	0
+	+	120	0
+	+	121	0
+	+	122	0
+	+	123	0
+	+	124	0
+	+	115	0
+	+	119	0
+	+	115	0
+	+	116	44
+	+	118	0
+	+	116	25
+	+	118	0
+	+	116	44
+	+	115	0
+	+	118	0
+	+	119	0
+	+	120	0
+	+	121	0
+	+	122	0
+	+	123	0
+	+	124	0
+	+	116	25
+	+	116	81
+	+	116	19
+	+	116	24
+	+	116	19
+	+	117	0
 
-> ~/study/latex-g7-32-master/tex/okhotnikov.log
+> ~/Job/Madness/VPN/inline-udp-nl.ovpn
+	*	1524338509	0
+	"	4	17
+	^	4	19
+	.	4	18
+	+	77	0
+	+	4	18
+
+> ~/Job/Energy/TeleBot/bot_sup/.git/COMMIT_EDITMSG
+	*	1524225709	0
+	"	1	126
+	^	1	128
+	.	1	126
+	+	1	74
+	+	1	73
+	+	1	101
+	+	1	77
+	+	1	81
+	+	1	83
+	+	1	126
+
+> ~/Job/Energy/TeleBot/bot_sup/.git/rebase-merge/git-rebase-todo
+	*	1524068434	0
+	"	3	0
+	^	3	1
+	.	3	0
+	+	3	5
+	+	4	5
+	+	5	0
+	+	2	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	4	0
+	+	1	1
+	+	2	0
+	+	3	0
+	+	2	0
+	+	3	0
+
+> ~/Job/Energy/TeleBot/bot_revision/.git/COMMIT_EDITMSG
+	*	1524047454	0
+	"	1	99
+	^	1	101
+	.	1	99
+	+	1	87
+	+	1	77
+	+	1	73
+	+	1	51
+	+	1	0
+	+	10	0
+	+	1	88
+	+	1	76
+	+	1	84
+	+	1	92
+	+	6	117
+	+	8	71
+	+	4	62
+	+	1	89
+	+	1	83
+	+	1	99
+
+> ~/.local/lib/python3.5/site-packages/pgcli/main.py
+	*	1523985099	0
+	"	1089	12
+
+> ~/.local/lib/python3.5/site-packages/pgcli/__init__.py
+	*	1523985085	0
 	"	1	0
 
-> ~/study/latex-g7-32-master/tex/00-abstract.tex
+> ~/Dropbox/Programs/study/Prolog/lab4/sem.pl
+	*	1523970734	0
+	"	1	0
+	^	13	0
+	.	13	0
+	+	11	53
+	+	9	0
+	+	5	21
+	+	8	31
+	+	7	33
+	+	1	39
+	+	2	0
+	+	1	52
+	+	2	0
+	+	1	63
+	+	13	0
+
+> ~/Dropbox/Programs/study/Prolog/lab6/syn_an_demo.pl
+	*	1523956183	0
 	"	1	0
 
-> ~/study/latex-g7-32-master/tex/20-analysis.tex
+> ~/Dropbox/Programs/study/Prolog/lab6/syn_an4.pl
+	*	1523955240	0
+	"	14	0
+
+> ~/Dropbox/Programs/study/Prolog/lab6/syn_an3.pl
+	*	1523955133	0
+	"	4	0
+
+> ~/Job/Energy/TeleBot/bot_sup/run.py
+	*	1523953081	0
+	"	1503	4
+	^	1503	5
+	.	1503	4
+	+	323	0
+	+	322	0
+	+	306	0
+	+	329	47
+	+	328	0
+	+	329	0
+	+	327	36
+	+	1431	16
+	+	1430	48
+	+	1431	0
+	+	413	53
+	+	407	18
+	+	408	36
+	+	411	18
+	+	408	65
+	+	413	51
+	+	383	74
+	+	381	65
+	+	378	62
+	+	382	0
+	+	386	64
+	+	387	0
+	+	368	68
+	+	885	105
+	+	889	49
+	+	890	15
+	+	889	49
+	+	917	73
+	+	889	0
+	+	890	0
+	+	885	0
+	+	889	48
+	+	885	37
+	+	886	61
+	+	888	0
+	+	885	0
+	+	888	0
+	+	888	78
+	+	884	89
+	+	885	39
+	+	888	26
+	+	326	22
+	+	327	0
+	+	329	0
+	+	324	0
+	+	888	0
+	+	318	12
+	+	303	0
+	+	302	69
+	+	318	70
+	+	302	67
+	+	318	23
+	+	320	0
+	+	318	22
+	+	307	69
+	+	310	82
+	+	313	72
+	+	316	75
+	+	300	53
+	+	332	51
+	+	335	0
+	+	334	0
+	+	337	78
+	+	338	59
+	+	54	49
+	+	1445	0
+	+	1434	57
+	+	1436	0
+	+	1435	0
+	+	1440	57
+	+	1439	102
+	+	1438	0
+	+	1444	30
+	+	53	0
+	+	1438	0
+	+	1442	73
+	+	318	21
+	+	303	56
+	+	318	61
+	+	319	0
+	+	318	74
+	+	303	64
+	+	1415	16
+	+	1416	0
+	+	1421	17
+	+	1423	0
+	+	1415	24
+	+	1416	0
+	+	1423	0
+	+	1424	0
+	+	1423	0
+	+	1424	0
+	+	1422	0
+	+	1425	58
+	+	1501	0
+	+	1502	4
+	+	1503	4
+	+	1501	0
+	+	1502	4
+	+	1503	4
+
+> ~/Job/Madness/VPN/inline-udp-usa.ovpn
+	*	1523892223	0
+	"	99	0
+
+> ~/Загрузки/inline-tcp-ru.ovpn
+	*	1523889674	0
+	"	199	0
+
+> ~/Job/Energy/TeleBot/bot_revision/updategeojson.py
+	*	1523885838	0
+	"	246	4
+	^	246	5
+	.	246	4
+	+	246	4
+	+	49	19
+	+	49	0
+	+	50	0
+	+	45	0
+	+	46	91
+	+	47	60
+	+	46	117
+	+	48	0
+	+	246	4
+
+> ~/Job/Energy/TeleBot/bot_revision/.forupdate/installed_lamps.json
+	*	1523885589	0
+	"	1	77
+
+> ~/Job/Energy/TeleBot/bot_revision/run.py
+	*	1523885033	0
+	"	1	0
+	^	1437	101
+	.	1437	101
+	+	524	0
+	+	523	9
+	+	520	18
+	+	521	0
+	+	522	0
+	+	523	0
+	+	521	17
+	+	522	15
+	+	520	0
+	+	521	19
+	+	522	17
+	+	520	23
+	+	521	22
+	+	520	23
+	+	521	23
+	+	522	21
+	+	521	24
+	+	520	25
+	+	521	24
+	+	525	40
+	+	526	40
+	+	530	27
+	+	520	24
+	+	521	23
+	+	522	21
+	+	535	27
+	+	526	52
+	+	523	26
+	+	520	28
+	+	521	27
+	+	522	25
+	+	562	54
+	+	569	38
+	+	562	58
+	+	562	11
+	+	562	26
+	+	562	12
+	+	562	0
+	+	7	0
+	+	867	30
+	+	1125	26
+	+	1163	26
+	+	1431	58
+	+	1505	55
+	+	1792	22
+	+	84	74
+	+	102	15
+	+	103	15
+	+	104	15
+	+	102	49
+	+	103	50
+	+	104	39
+	+	102	64
+	+	104	0
+	+	103	0
+	+	104	0
+	+	103	50
+	+	104	0
+	+	105	0
+	+	104	52
+	+	103	65
+	+	105	0
+	+	244	11
+	+	245	11
+	+	246	11
+	+	244	35
+	+	246	33
+	+	245	37
+	+	244	49
+	+	245	37
+	+	246	0
+	+	247	0
+	+	245	52
+	+	246	44
+	+	271	11
+	+	272	11
+	+	271	35
+	+	272	35
+	+	271	49
+	+	272	49
+	+	428	49
+	+	429	45
+	+	521	51
+	+	590	18
+	+	684	49
+	+	685	49
+	+	1367	0
+	+	1369	0
+	+	1841	45
+	+	1431	0
+	+	1430	0
+	+	1433	0
+	+	1428	53
+	+	1429	21
+	+	1841	34
+	+	1437	101
+
+> ~/Job/Energy/TeleBot/bot_revision/db/db.sql
+	*	1523885021	0
+	"	71	0
+	^	59	2
+	.	59	1
+	+	3	21
+	+	3	20
+	+	4	0
+	+	11	31
+	+	10	33
+	+	48	31
+	+	47	32
+	+	3	21
+	+	4	0
+	+	60	0
+	+	59	1
+
+> ~/Job/Energy/TeleBot/bot_revision/NERD_tree_2
+	*	1523885001	0
+	"	23	0
+	.	1	0
+	+	1	0
+
+> ~/Job/Energy/TeleBot/bot_revision/glg
+	*	1523882824	0
 	"	1	0
 
-> ~/study/latex-g7-32-master/tex/12-intro.tex
+> ~/Job/Energy/TeleBot/testing/leaflet/i-sberg.com/realworld.10000.js
+	*	1523882149	0
+	"	4	0
+
+> ~/Job/Energy/TeleBot/testing/leaflet/clusters/Leaflet.markercluster-1.2.0/example/marker-clustering-realworld.10000.html
+	*	1523881979	0
+	"	37	1
+
+> ~/Job/Energy/TeleBot/testing/leaflet/isberg/i-sberg.com/index.php/e-lighting-plan
+	*	1523881681	0
 	"	1	0
 
-> ~/study/latex-g7-32-master/tex/12-intro.
+> ~/Job/Energy/TeleBot/testing/maps/leaflet/leaflet
+	*	1523880725	0
 	"	1	0
 
-> /usr/include/netipx/ipx.h
-	"	61	0
+> ~/Dropbox/Programs/study/Prolog/lab4/NERD_tree_1
+	*	1523815425	0
+	"	7	7
+	.	1	0
+	+	1	0
 
-> /usr/include/netash/ash.h
+> ~/Dropbox/Programs/study/Prolog/lab4/demo_sem_net.pl
+	*	1523805128	0
+	"	51	4
+	^	6	5
+
+> ~/Dropbox/Programs/study/Prolog/KazakovAI/Prolog/Examples/demo_sem_net.pl
+	*	1523792835	0
+	"	22	4
+
+> ~/Dropbox/Programs/study/Prolog/KazakovAI/Prolog/Examples/dogs_cats.pl
+	*	1523792611	0
 	"	1	0
 
-> /usr/include/netpacket/packet.h
-	"	61	0
+> ~/Dropbox/Programs/study/Prolog/KazakovAI/Prolog/SWI-PrologPortable/lab4.pl
+	*	1523792586	0
+	"	99	20
 
-> /usr/include/netinet/ether.h
+> ~/Dropbox/Programs/study/Prolog/KazakovAI/Prolog/SWI-PrologPortable/lab6.pl
+	*	1523791909	0
 	"	1	0
+
+> /etc/mc/mc.keymap
+	*	1523484660	0
+	"	166	13
+	^	166	15
+	.	166	14
+	+	166	14
+
+> ~/.config/mc/panels.ini
+	*	1523484078	0
+	"	1	0
+
+> ~/Job/Energy/TeleBot/bot_sup/configs/init.default.ini
+	*	1523454901	0
+	"	5	0
+
+> ~/Job/Energy/TeleBot/bot_pcs/.run.py.swo
+	*	1523453817	0
+	"	1	0
+
+> ~/Документы/Networks/Raw/rawcli.c
+	*	1523371099	0
+	"	205	2
+	.	206	0
+	+	206	0
